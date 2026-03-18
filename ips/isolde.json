@@ -313,7 +313,7 @@
     "URL": "https://github.com/bsc-loca/SafeTI/",
     "License": "MIT",
     "Status": "Released",
-    "Description": "Programmable traffic innjector that can be use for platform co-testing and offers a large variety of applications",
+    "Description": "Programmable traffic innjector that can be used for platform co-testing and offers a large variety of applications",
     "WI": [
       "ID 3.1.01"
     ],
@@ -523,12 +523,12 @@
     "URL": "https://github.com/bsc-loca/SafeSU/",
     "License": "MIT",
     "Status": "Released",
-    "Description": "The Safe Statistics Unit (SafeSU for short) is an RTL IP that implements several mechanisms for multicore timing interference verification, validation, and monitoring",
+    "Description": "The Safe Statistics Unit (SafeSU) is an RTL IP that implements several mechanisms for multicore timing interference verification, validation, and monitoring",
     "WI": [
       "ID 3.3.01"
     ],
     "Partners": "BSC",
-    "Comment": "MIT",
+    "Comment": "",
     "Category": "Accelerators and extensions"
   },
   {
