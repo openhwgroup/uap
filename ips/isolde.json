@@ -527,7 +527,7 @@
     "WI": [
       "ID 3.3.01"
     ],
-    "Partners": BSC,
+    "Partners": "BSC",
     "Comment": "MIT",
     "Category": "Accelerators and extensions"
   },
