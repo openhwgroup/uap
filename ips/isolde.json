@@ -312,8 +312,8 @@
     "Name": "Safety-related Traffic Injector",
     "URL": "https://github.com/bsc-loca/SafeTI/",
     "License": "MIT",
-    "Status": "",
-    "Description": "TBD",
+    "Status": "Released",
+    "Description": "Programmable traffic innjector that can be use for platform co-testing and offers a large variety of applications",
     "WI": [
       "ID 3.1.01"
     ],
@@ -521,28 +521,14 @@
     "Project": "ISOLDE",
     "Name": "Safety-related Statistics Unit (SafeSU)",
     "URL": "https://github.com/bsc-loca/SafeSU/",
-    "License": "",
-    "Status": "",
-    "Description": "",
-    "WI": [
-      ""
-    ],
-    "Partners": [],
-    "Comment": "",
-    "Category": "Accelerators and extensions"
-  },
-  {
-    "Project": "ISOLDE",
-    "Name": "ID 3.3.01",
-    "URL": "",
     "License": "MIT",
-    "Status": "",
-    "Description": "",
+    "Status": "Released",
+    "Description": "The Safe Statistics Unit (SafeSU for short) is an RTL IP that implements several mechanisms for multicore timing interference verification, validation, and monitoring",
     "WI": [
-      "TBD"
+      "ID 3.3.01"
     ],
     "Partners": "BSC",
-    "Comment": "",
+    "Comment": "MIT",
     "Category": "Accelerators and extensions"
   },
   {
@@ -688,10 +674,10 @@
   {
     "Project": "ISOLDE",
     "Name": "HLS-based Post-Quantum Cryptographic Accelerator (HLS-PQC)",
-    "URL": "",
+    "URL": "https://github.com/bsc-loca/PQC-Crystals-HLS-Accelerators",
     "License": "Solderpad",
-    "Status": "",
-    "Description": "TBD",
+    "Status": "Released",
+    "Description": "Implements a PQC accelerator for FPGA-based SoCs using HLS. It supports CRYSTALS-Kyber (ML-KEM) and CRYSTALS-Dilithium (ML-DSA). Both schemes are NIST standards for post-quantum cryptography.",
     "WI": [
       "ID 3.5.01"
     ],
