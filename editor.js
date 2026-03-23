@@ -1,6 +1,7 @@
 /*
  *-------------------------------------------------------------------------------
  * Copyright (C) 2025 philippe
+ * Copyright (C) 2025 Eclipse Foundation
  * 
  * This program and the accompanying materials are made
  * available under the terms of the Eclipse Public License 2.0
@@ -14,6 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const GITHUB_API_URL = 'https://api.github.com/repos/openhwgroup/tristan-isolde-unified-access-page/contents/ips?ref=main';
   const CATEGORIES_URL = 'cfg/categories.json';
+  const LICENSES_URL = 'cfg/licenses.json';
 
   const fileSelector = document.getElementById('file-selector');
   const loadBtn = document.getElementById('load-file-btn');
@@ -29,6 +31,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
   let currentData = [];
   let allowedCategories = [];
+  let allowedLicenses = [];
+  let allLicensesData = []; // Full license objects with both name and licenseId
   const schemaColumns = ["Name", "Category", "URL", "License", "Status", "Description", "WI", "Partners", "Comment"];
 
   // --- INITIALIZATION ---
@@ -36,6 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
   async function initialize() {
     await Promise.all([
       loadCategories(),
+      loadLicenses(),
       populateFileSelector()
     ]);
   }
@@ -47,6 +52,18 @@ document.addEventListener('DOMContentLoaded', () => {
     } catch (error) {
       console.error('Failed to load categories:', error);
       alert('Error: Could not load categories configuration.');
+    }
+  }
+
+  async function loadLicenses() {
+    try {
+      const response = await fetch(LICENSES_URL);
+      allLicensesData = await response.json();
+      // Extract licenseId values from the licenses array
+      allowedLicenses = allLicensesData.map(license => license.licenseId);
+    } catch (error) {
+      console.error('Failed to load licenses:', error);
+      alert('Error: Could not load licenses configuration.');
     }
   }
 
@@ -152,6 +169,23 @@ document.addEventListener('DOMContentLoaded', () => {
         return; // Stop the save process
       }
       seenNames.add(name);
+    }
+
+    // Validation of the License field
+    for (let i = 0; i < currentData.length; i++) {
+      const row = currentData[i];
+      const license = (row.License || '').trim();
+
+      // Skip empty licenses (they're allowed)
+      if (!license) continue;
+
+      // Check if license is in the allowed list
+      if (!allowedLicenses.includes(license)) {
+        alert(`Error: Invalid license value "${license}" found in row ${i + 1}.\n` +
+              `Please select a valid license from the dropdown list.\n` +
+              `Valid licenses: ${allowedLicenses.join(', ')}`);
+        return; // Stop the save process
+      }
     }
 
     const outputOrder = ["Name", "URL", "License", "Status", "Description", "Project", "WI", "Partners", "Comment", "Category"];
@@ -275,6 +309,67 @@ document.addEventListener('DOMContentLoaded', () => {
               opt.style.display = opt.textContent.toLowerCase().includes(filterText) ? 'block' : 'none';
             });
           });
+        } else if (key === 'License') {
+          const container = document.createElement('div');
+          container.className = 'license-combobox-container';
+
+          const input = document.createElement('input');
+          input.type = 'text';
+          input.value = Array.isArray(value) ? value.join(', ') : value;
+          input.dataset.index = rowIndex;
+          input.dataset.key = key;
+          container.appendChild(input);
+
+          const dropdown = document.createElement('div');
+          dropdown.className = 'license-dropdown';
+
+          allowedLicenses.forEach(licenseId => {
+            const licenseData = allLicensesData.find(l => l.licenseId === licenseId);
+            const option = document.createElement('div');
+            option.textContent = licenseId;
+            option.className = 'license-option';
+            option.dataset.licenseId = licenseId;
+            option.addEventListener('mousedown', (e) => {
+              e.preventDefault(); // Prevent input from losing focus
+              const currentValues = input.value.split(',').map(s => s.trim()).filter(Boolean);
+              if (!currentValues.includes(licenseId)) {
+                currentValues.push(licenseId);
+                input.value = currentValues.join(', ') + ', '; 
+                // Manually trigger the input event to update the data model
+                input.dispatchEvent(new Event('input', { bubbles: true }));
+                // Set focus and move cursor to the end of the input
+                input.focus();
+                const end = input.value.length;
+                input.setSelectionRange(end, end);
+              }
+            });
+            dropdown.appendChild(option);
+          });
+
+          container.appendChild(dropdown);
+          td.appendChild(container);
+
+          input.addEventListener('focus', () => {
+            dropdown.style.display = 'block';
+          });
+
+          input.addEventListener('blur', () => {
+            // Delay hiding to allow click on dropdown options
+            setTimeout(() => {
+              dropdown.style.display = 'none';
+            }, 150);
+          });
+
+          input.addEventListener('input', () => {
+            const filterText = input.value.split(',').pop().trim().toLowerCase();
+            // Filter by licenseId or license name
+            dropdown.querySelectorAll('.license-option').forEach(opt => {
+              const licenseData = allLicensesData.find(l => l.licenseId === opt.dataset.licenseId);
+              const matchesLicenseId = opt.textContent.toLowerCase().includes(filterText);
+              const matchesName = licenseData && licenseData.name.toLowerCase().includes(filterText);
+              opt.style.display = (matchesLicenseId || matchesName) ? 'block' : 'none';
+            });
+          });
         } else {
           const input = document.createElement('input');
           input.type = 'text';
@@ -335,7 +430,15 @@ document.addEventListener('DOMContentLoaded', () => {
   // Use 'change' for select dropdowns.
   tbody.addEventListener('input', (e) => {
     const target = e.target;
-    if (target.tagName === 'INPUT' || target.tagName === 'SELECT') {
+    if (target.tagName === 'INPUT') {
+      const { index, key } = target.dataset;
+      updateData(parseInt(index, 10), key, target.value);
+    }
+  });
+
+  tbody.addEventListener('change', (e) => {
+    const target = e.target;
+    if (target.tagName === 'SELECT') {
       const { index, key } = target.dataset;
       updateData(parseInt(index, 10), key, target.value);
     }
