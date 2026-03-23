@@ -1,6 +1,7 @@
 /*
  *-------------------------------------------------------------------------------
  * Copyright (C) 2025 philippe
+ * Copyright (C) 2025 Eclipse Foundation
  * 
  * This program and the accompanying materials are made
  * available under the terms of the Eclipse Public License 2.0
@@ -69,13 +70,7 @@ header {
   padding: 0.85rem 1.5rem;
 }
 
-.nav-logo-text {
-  font-weight: 600;
-  letter-spacing: 0.04em;
-  font-size: 1rem;
-  text-transform: uppercase;
-  color: #1b2b3a;
-}
+
 
 nav ul {
   list-style: none;
@@ -436,30 +431,6 @@ select {
     text-overflow: ellipsis;
   }
 }
-/* Allow table to stretch full width across the window */
-.table-fullwidth {
-  width: 100vw;              /* full viewport width */
-  position: relative;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;        /* shift to the left edge */
-  margin-right: -50vw;       /* shift to the right edge */
-  padding-left: 1.5rem;      /* match site padding */
-  padding-right: 1.5rem;
-  box-sizing: border-box;
-}
-
-/* Medium mode: table takes 80% of the page */
-.table-medium {
-  max-width: 85%;
-  margin: 0 auto;   /* centers the table */
-}
-
-/* Smaller variant if needed: 70% */
-.table-narrow {
-  max-width: 70%;
-  margin: 0 auto;
-}
 /* Make the table area align to the window, not to <main> */
 .table-viewport {
   width: 100vw;                 /* full viewport width */
@@ -472,28 +443,31 @@ select {
   box-sizing: border-box;
 }
 
-/* Inner container: centered, max 1500px */
 .table-fixed {
-  max-width: 1500px;            /* never wider than 1200px */
-  width: 100%;                  /* but fluid under 1200px */
-  margin: 0 auto;               /* centered inside the viewport band */
+  max-width: none;              /* no width limit */
+  width: 100%;                  /* use all available width */
+  margin: 0;                    /* no centering needed */
+  min-height: 1000px;
 }
 
-/* =========================================================
-   Search bar & floating settings panel
-   ========================================================= */
 
-/* Container for search bar and settings button */
 .search-and-settings-container {
+  width: 100vw;
   display: grid;
   grid-template-columns: 1fr auto;
   position: relative;
   gap: 10px;
   align-items: center;
   margin-bottom: 10px;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;           /* pull to the left edge of the window */
+  margin-right: -50vw;          /* pull to the right edge of the window */
+  padding: 0 1.5rem;            /* same side padding as the site */
+  box-sizing: border-box;
 }
 
-#search-input {
+.search-and-settings-container #search-input {
   width: 100%;
   padding: 10px;
   font-size: 1rem;
@@ -502,8 +476,7 @@ select {
   background-color: #ffffff;
 }
 
-/* Settings toggle button */
-#settings-toggle-btn {
+.search-and-settings-container #settings-toggle-btn {
   background: #fff;
   border: 1px solid #ccc;
   border-radius: 6px;
@@ -517,11 +490,10 @@ select {
   justify-content: center;
 }
 
-/* Floating settings panel */
-.floating-panel {
+.search-and-settings-container .floating-panel {
   position: absolute;
   top: calc(100% + 10px);
-  right: 15px;
+  right: 0;
   width: 320px;
   background: #fff;
   border: 1px solid #ccc;
@@ -727,13 +699,13 @@ body.editor-page #data-table tr:hover .row-actions-container {
 }
 
 /* Category combobox in editor */
-.category-combobox-container {
+.category-combobox-container, .license-combobox-container {
   position: relative;
   width: 100%;
   height: 100%;
 }
 
-.category-dropdown {
+.category-dropdown, .license-dropdown {
   display: none;
   position: absolute;
   top: 100%;
@@ -748,17 +720,18 @@ body.editor-page #data-table tr:hover .row-actions-container {
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-.category-option {
+.category-option, .license-option {
   padding: 10px 14px;
   cursor: pointer;
   font-size: 0.95rem;
 }
 
-.category-option:hover {
+.category-option:hover, .license-option:hover {
   background-color: #eef6ff;
 }
 
-body.editor-page #data-table .category-combobox-container input {
+body.editor-page #data-table .category-combobox-container input, 
+body.editor-page #data-table .license-combobox-container input {
   border-bottom: 1px solid rgba(15,23,42,0.06);
 }
 

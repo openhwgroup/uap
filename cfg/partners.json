@@ -1,0 +1,323 @@
+[
+  {
+    "name": "AbsInt Angewandte Informatik GmbH",
+    "aliases": ["AbsInt", "ABS"]
+  },
+  {
+    "name": "Accemic Technologies",
+    "aliases": ["ACCT"]
+  },
+  {
+    "name": "ACP",
+    "aliases": []
+  },
+  {
+    "name": "aicas GmbH",
+    "aliases": ["AIC", "aicas"]
+  },
+  {
+    "name": "ALM",
+    "aliases": []
+  },
+  {
+    "name": "Antmicro SP Zoo",
+    "aliases": ["ANTM", "Antmicro"]
+  },
+  {
+    "name": "ARCELIK",
+    "aliases": []
+  },
+  {
+    "name": "BCA",
+    "aliases": []
+  },
+  {
+    "name": "BEIA",
+    "aliases": []
+  },
+  {
+    "name": "Robert Bosch France SAS",
+    "aliases": ["BOSCH-FR"]
+  },
+  {
+    "name": "Robert Bosch GmbH",
+    "aliases": ["Bosch", "BOSCH-DE"]
+  },
+  {
+    "name": "Barcelona Supercomputing Center",
+    "aliases": ["BSC", "Centro Nacional de Supercomputacion"]
+  },
+  {
+    "name": "BUT",
+    "aliases": []
+  },
+  {
+    "name": "BYK",
+    "aliases": []
+  },
+  {
+    "name": "Commissariat a l’Energie Atomique et aux Energies Alternatives",
+    "aliases": ["CEA"]
+  },
+  {
+    "name": "Codasip GmbH",
+    "aliases": ["CODA", "Codasip"]
+  },
+  {
+    "name": "CONS",
+    "aliases": []
+  },
+  {
+    "name": "CSEM",
+    "aliases": []
+  },
+  {
+    "name": "ETH Zürich",
+    "aliases": ["ETHZ", "ETH", "ETH Zurich"]
+  },
+  {
+    "name": "EXASCALE PERFORMANCE SYSTEMS - EXAPSYS IKE",
+    "aliases": ["EXA"]
+  },
+  {
+    "name": "FENTISS",
+    "aliases": []
+  },
+  {
+    "name": "FORTH",
+    "aliases": []
+  },
+  {
+    "name": "FotoNation",
+    "aliases": []
+  },
+  {
+    "name": "Fraunhofer Gesellschaft zur Förderung der angewandten Forschung e.V.",
+    "aliases": ["FRAUN", "Fraunhofer"]
+  },
+  {
+    "name": "FZI",
+    "aliases": []
+  },
+  {
+    "name": "GSL",
+    "aliases": []
+  },
+  {
+    "name": "HM",
+    "aliases": []
+  },
+  {
+    "name": "Infineon Technologies AG",
+    "aliases": ["IFX", "Infineon Technologies"]
+  },
+  {
+    "name": "Interuniversitair Micro-electronica Centrum",
+    "aliases": ["IMEC"]
+  },
+  {
+    "name": "IMT",
+    "aliases": []
+  },
+  {
+    "name": "INTEL",
+    "aliases": []
+  },
+  {
+    "name": "Klepsydra",
+    "aliases": []
+  },
+  {
+    "name": "LUND",
+    "aliases": []
+  },
+  {
+    "name": "MINRES Technologies GmbH",
+    "aliases": ["MNRS", "MINRES", "MINRES Technologies"]
+  },
+  {
+    "name": "NXP Semiconductors Germany GmbH",
+    "aliases": ["NXP", "NXP-DE"]
+  }
+  {
+    "name": "NXP Semiconductors Austria GmbH & Co. KG",
+    "aliases": ["NXP-AT", "NXP Austria"]
+  },
+  {
+    "name": "NXP-CZ",
+    "aliases": []
+  },
+  {
+    "name": "NXP Semiconductors Romania SRL",
+    "aliases": ["NXP-RO"]
+  },
+  {
+    "name": "NXP Semiconductors France",
+    "aliases": ["NXP-FR"]
+  },
+  {
+    "name": "OFFIS",
+    "aliases": []
+  },
+  {
+    "name": "OpenHW Foundation",
+    "aliases": [
+      "OpenHW",
+      "Eclipse Foundation Europe GmbH",
+      "ECL",
+      "EFE",
+      "Eclipse Foundation",
+      "ECL/OpenHW"
+    ]
+  },
+  {
+    "name": "Others",
+    "aliases": [
+      ""
+    ]
+  },
+  {
+    "name": "Paderborn University / Heinz Nixdorf Institut",
+    "aliases": []
+  },
+  {
+    "name": "Politecnico di Torino",
+    "aliases": ["POLITO"]
+  },
+  {
+    "name": "Politecnico di Torino",
+    "aliases": ["POLIMI"]
+  },
+  {
+    "name": "RAPITA",
+    "aliases": []
+  },
+  {
+    "name": "RPTU",
+    "aliases": []
+  },
+  {
+    "name": "SAL",
+    "aliases": []
+  },
+  {
+    "name": "Semify e.U.",
+    "aliases": ["Semify", "SEM"]
+  },
+  {
+    "name": "Siemens Electronic Design Automation LTd.",
+    "aliases": ["SIEM-IL", "Siemens EDA"]
+  },
+  {
+    "name": "Siemens Aktiengesellschaft Österreich",
+    "aliases": ["SIEM-AT"]
+  },
+  {
+    "name": "SILVACO",
+    "aliases": []
+  },
+  {
+    "name": "SML",
+    "aliases": []
+  },
+  {
+    "name": "SYN",
+    "aliases": []
+  },
+  {
+    "name": "SYSGO GmbH",
+    "aliases": ["SYSGO"]
+  },
+  {
+    "name": "Synthara AG",
+    "aliases": ["SYNT", "Synthara"]
+  },
+  {
+    "name": "Tampere University",
+    "aliases": ["TAU"]
+  },
+  {
+    "name": "TASI",
+    "aliases": []
+  },
+  {
+    "name": "TBD",
+    "aliases": []
+  },
+  {
+    "name": "TDIS",
+    "aliases": []
+  },
+  {
+    "name": "Technische Universität Graz",
+    "aliases": ["TU Graz", "Technical University of Graz"]
+  },
+  {
+    "name": "Technical University of Munich",
+    "aliases": []
+  },
+  {
+    "name": "Technische Universität Darmstadt",
+    "aliases": ["TU Darmstadt", "TUDA"]
+  },
+  {
+    "name": "Technische Universität München",
+    "aliases": ["TUM"]
+  },
+  {
+    "name": "Thales DIS France SAS",
+    "aliases": ["TDIS"]
+  },
+  {
+    "name": "Thales SA",
+    "aliases": ["TRT", "Thales"]
+  },
+  {
+    "name": "TUC",
+    "aliases": []
+  },
+  {
+    "name": "TUI",
+    "aliases": []
+  },
+  {
+    "name": "Universita di Bologna",
+    "aliases": ["UNIBO", "University of Bologna"]
+  },
+  {
+    "name": "UPB",
+    "aliases": []
+  },
+  {
+    "name": "UPV",
+    "aliases": []
+  },
+  {
+    "name": "UZL",
+    "aliases": []
+  },
+  {
+    "name": "VLSI Solution",
+    "aliases": ["VLSI"]
+  },
+  {
+    "name": "Yonga Teknoloji Mikroelektronik Arastirma Gelistirme Tic.",
+    "aliases": ["YNGA", "Yonga Technologies", "Yongatek"]
+  },
+  {
+    "name": "ZHAW",
+    "aliases": []
+  },
+  {
+    "name": "ST Microelectronics SRL",
+    "aliases": ["ST-IT"]
+  },
+  {
+    "name": "Nokia OYJ",
+    "aliases": ["NOKIA", "Nokia"]
+  },
+  {
+    "name": "Cargotec Oyj",
+    "aliases": ["CGT", "Cargotec"]
+  }
+]

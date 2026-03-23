@@ -13,8 +13,8 @@
           { "type": "string" }
         ]
       },
-      "Subcategory": { "type": "string" },
       "URL": { "type": "string", "format": "uri" },
+      "IP_Card_URL" : { "type": "string", "format": "uri" },
       "Project": { "type": "string" },
       "WI": {
         "oneOf": [
