@@ -1,8 +1,7 @@
 [
   {
     "Name": "RISC-V Main Processor Complex",
-    "Category" : "Hardware",
-    "Subcategory" : "RISC-V Processing System",
+    "Category" : ["Hardware", "RISC-V Processing System"],
     "URL": "",
     "Project": "REBECCA",
     "WI": [""],
@@ -14,8 +13,7 @@
   },
   {
     "Name": "AXI Crossbar for Central Interconnect",
-    "Category" : "Hardware",
-    "Subcategory" : "RISC-V Processing System",
+    "Category" : ["Hardware", "RISC-V Processing System"],
     "URL": "",
     "Project": "REBECCA",
     "WI": [""],
@@ -27,8 +25,7 @@
   },
   {
     "Name": "Intrusion-Detection System (IDS) Module",
-    "Category" : "Hardware",
-    "Subcategory" : "Accelerators on ASIC",
+    "Category" : ["Hardware", "Accelerators on ASIC"],
     "URL": "",
     "Project": "REBECCA",
     "WI": [""],
@@ -40,8 +37,7 @@
   },
   {
     "Name": "Neuromorphic Accelerator",
-    "Category" : "Hardware",
-    "Subcategory" : "Accelerators on ASIC",
+    "Category" : ["Hardware", "Accelerators on ASIC"],
     "URL": "",
     "Project": "REBECCA",
     "WI": [""],
@@ -53,8 +49,7 @@
   },
   {
     "Name": "Near-memory Processing (NMP) Accelerator",
-    "Category" : "Hardware",
-    "Subcategory" : "Accelerators on ASIC",
+    "Category" : ["Hardware", "Accelerators on ASIC"],
     "URL": "",
     "Project": "REBECCA",
     "WI": [""],
@@ -66,8 +61,7 @@
   },
   {
     "Name": "Watchdog AI Accelerator",
-    "Category" : "Hardware",
-    "Subcategory" : "Accelerators on Reconfigurable Logic",
+    "Category" : ["Hardware", "Accelerators on Reconfigurable Logic"],
     "URL": "",
     "Project": "REBECCA",
     "WI": [""],
@@ -79,8 +73,7 @@
   },
   {
     "Name": "FORTH AI Accelerator",
-    "Category" : "Hardware",
-    "Subcategory" : "Accelerators on Reconfigurable Logic",
+    "Category" : ["Hardware", "Accelerators on Reconfigurable Logic"],
     "URL": "",
     "Project": "REBECCA",
     "WI": [""],
@@ -92,8 +85,7 @@
   },
   {
     "Name": "ML Accelerator",
-    "Category" : "Hardware",
-    "Subcategory" : "Accelerators on Reconfigurable Logic",
+    "Category" : ["Hardware", "Accelerators on Reconfigurable Logic"],
     "URL": "",
     "Project": "REBECCA",
     "WI": [""],
@@ -105,8 +97,7 @@
   },
   {
     "Name": "CNN Accelerator",
-    "Category" : "Hardware",
-    "Subcategory" : "Accelerators on Reconfigurable Logic",
+    "Category" : ["Hardware", "Accelerators on Reconfigurable Logic"],
     "URL": "",
     "Project": "REBECCA",
     "WI": [""],
@@ -119,7 +110,6 @@
   {
     "Name": "Chip2FPGA",
     "Category" : "Hardware",
-    "Subcategory" : "",
     "URL": "",
     "Project": "REBECCA",
     "WI": [""],
@@ -132,7 +122,6 @@
   {
     "Name": "Chip2Chip Interface",
     "Category" : "Hardware",
-    "Subcategory" : "",
     "URL": "",
     "Project": "REBECCA",
     "WI": [""],
@@ -145,7 +134,6 @@
   {
     "Name": "I/O Coherency",
     "Category" : "Hardware",
-    "Subcategory" : "",
     "URL": "",
     "Project": "REBECCA",
     "WI": [""],
@@ -158,7 +146,6 @@
   {
     "Name": "DMA",
     "Category" : "Hardware",
-    "Subcategory" : "",
     "URL": "",
     "Project": "REBECCA",
     "WI": [""],
@@ -171,7 +158,6 @@
   {
     "Name": "Booting Devices",
     "Category" : "Hardware",
-    "Subcategory" : "",
     "URL": "",
     "Project": "REBECCA",
     "WI": [""],
@@ -184,7 +170,6 @@
   {
     "Name": "Booting Devices",
     "Category" : "Hardware",
-    "Subcategory" : "",
     "URL": "",
     "Project": "REBECCA",
     "WI": [""],
@@ -197,8 +182,7 @@
   
   {
     "Name": "PikeOS and Hypervisor",
-    "Category" : "Software",
-    "Subcategory" : "System Software",
+    "Category" : ["Software", "System Software"],
     "URL": "",
     "Project": "REBECCA",
     "WI": [""],
@@ -210,8 +194,7 @@
   },
   {
     "Name": "XtratuM Hypervisor",
-    "Category" : "Software",
-    "Subcategory" : "System Software",
+    "Category" : ["Software", "System Software"],
     "URL": "",
     "Project": "REBECCA",
     "WI": [""],
@@ -223,8 +206,7 @@
   },
   {
     "Name": "Kubernetes",
-    "Category" : "Software",
-    "Subcategory" : "Middleware and Orchestration",
+    "Category" : ["Software", "Middleware and Orchestration"],
     "URL": "",
     "Project": "REBECCA",
     "WI": [""],
@@ -236,8 +218,7 @@
   },
   {
     "Name": "SafeLayer",
-    "Category" : "Software",
-    "Subcategory" : "Middleware and Orchestration",
+    "Category" : ["Software", "Middleware and Orchestration"],
     "URL": "",
     "Project": "REBECCA",
     "WI": [""],
@@ -249,8 +230,7 @@
   },
   {
     "Name": "ROS2",
-    "Category" : "Software",
-    "Subcategory" : "Middleware and Orchestration",
+    "Category" : ["Software", "Middleware and Orchestration"],
     "URL": "",
     "Project": "REBECCA",
     "WI": [""],
@@ -262,8 +242,7 @@
   },
   {
     "Name": "Asimovo",
-    "Category" : "Software",
-    "Subcategory" : "Middleware and Orchestration",
+    "Category" : ["Software", "Middleware and Orchestration"],
     "URL": "",
     "Project": "REBECCA",
     "WI": [""],
@@ -275,8 +254,7 @@
   },
   {
     "Name": "RISC-V Software AI Inference Engine",
-    "Category" : "Software",
-    "Subcategory" : "AI Frameworks",
+    "Category" : ["Software", "AI Frameworks"],
     "URL": "",
     "Project": "REBECCA",
     "WI": [""],
@@ -288,8 +266,7 @@
   },
   {
     "Name": "FPGA Software AI Inference Engine",
-    "Category" : "Software",
-    "Subcategory" : "AI Frameworks",
+    "Category" : ["Software", "AI Frameworks"],
     "URL": "",
     "Project": "REBECCA",
     "WI": [""],
@@ -301,8 +278,7 @@
   },
   {
     "Name": "LPDNN",
-    "Category" : "Software",
-    "Subcategory" : "AI Frameworks",
+    "Category" : ["Software", "AI Frameworks"],
     "URL": "",
     "Project": "REBECCA",
     "WI": [""],
@@ -314,8 +290,7 @@
   },
   {
     "Name": "AI Asset Workflow",
-    "Category" : "Software",
-    "Subcategory" : "AI Frameworks",
+    "Category" : ["Software", "AI Frameworks"],
     "URL": "",
     "Project": "REBECCA",
     "WI": [""],
@@ -327,8 +302,7 @@
   },
   {
     "Name": "DNN Safety Layer",
-    "Category" : "Software",
-    "Subcategory" : "AI Frameworks",
+    "Category" : ["Software", "AI Frameworks"],
     "URL": "",
     "Project": "REBECCA",
     "WI": [""],
@@ -340,8 +314,7 @@
   },
   {
     "Name": "EDDL Library",
-    "Category" : "Software",
-    "Subcategory" : "AI Frameworks",
+    "Category" : ["Software", "AI Frameworks"],
     "URL": "",
     "Project": "REBECCA",
     "WI": [""],
@@ -353,8 +326,7 @@
   },
   {
     "Name": "YOLO-based Object Detector and Image Processing Algorithm",
-    "Category" : "Software",
-    "Subcategory" : "AI Frameworks",
+    "Category" : ["Software", "AI Frameworks"],
     "URL": "",
     "Project": "REBECCA",
     "WI": [""],
@@ -366,8 +338,7 @@
   },
   {
     "Name": "SDK for Neuromorphic Accelerator",
-    "Category" : "Software",
-    "Subcategory" : "AI Frameworks",
+    "Category" : ["Software", "AI Frameworks"],
     "URL": "",
     "Project": "REBECCA",
     "WI": [""],
@@ -379,8 +350,7 @@
   },
   {
     "Name": "SDK for Watchdog AI Accelerator",
-    "Category" : "Software",
-    "Subcategory" : "AI Frameworks",
+    "Category" : ["Software", "AI Frameworks"],
     "URL": "",
     "Project": "REBECCA",
     "WI": [""],
@@ -392,8 +362,7 @@
   },
   {
     "Name": "ML Compiler for ML Accelerator",
-    "Category" : "Software",
-    "Subcategory" : "AI Frameworks",
+    "Category" : ["Software", "AI Frameworks"],
     "URL": "",
     "Project": "REBECCA",
     "WI": [""],
@@ -405,8 +374,7 @@
   },
   {
     "Name": "ML Design Space Exploration and Compiler for CNN Accelerator",
-    "Category" : "Software",
-    "Subcategory" : "AI Frameworks",
+    "Category" : ["Software", "AI Frameworks"],
     "URL": "",
     "Project": "REBECCA",
     "WI": [""],
@@ -418,8 +386,7 @@
   },
   {
     "Name": "AI Mapper",
-    "Category" : "Software",
-    "Subcategory" : "AI Frameworks",
+    "Category" : ["Software", "AI Frameworks"],
     "URL": "",
     "Project": "REBECCA",
     "WI": [""],
@@ -431,8 +398,7 @@
   },
   {
     "Name": "Asimovo-based AI Algorithms",
-    "Category" : "Software",
-    "Subcategory" : "AI Frameworks",
+    "Category" : ["Software", "AI Frameworks"],
     "URL": "",
     "Project": "REBECCA",
     "WI": [""],
