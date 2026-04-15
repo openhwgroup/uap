@@ -757,14 +757,14 @@
   },
   {
     "Name": "Co-processor Generator Tool",
-    "URL": "",
-    "License": "TBD (in progress)",
-    "Status": "In progress",
-    "Description": "Tool to generate CV-X-IF compliant co-processors based on user definition of operations/instructions.",
+    "URL": "https://github.com/cpc/openasip",
+    "License": "Tool: LGPL v2.1",
+    "Status": "Released",
+    "Description": "Tool to generate CV-X-IF and RoCC compliant co-processors based on user definition of operations/instructions.",
     "Project": "TRISTAN",
     "WI": "WI2.5.6",
     "Partners": "Tampere University",
-    "Comment": "Used by: TBD",
+    "Comment": "Used by: Tampere University",
     "Category": "Tools"
   },
   {
