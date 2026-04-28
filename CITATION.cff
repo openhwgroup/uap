@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-title: TRISTAN and ISOLDE Unified Access Page
+title: Unified RISC-V Access Platform (UAP)
 message: 'If you use this repository, please cite it as below.'
 type: dataset
 authors:
@@ -10,10 +10,10 @@ authors:
 identifiers:
   - type: url
     value: >-
-      https://github.com/openhwgroup/tristan-isolde-unified-access-page
+      https://github.com/openhwgroup/uap
 repository-code: >-
-  https://github.com/openhwgroup/tristan-isolde-unified-access-page
-url: 'https://tristan-project.eu/tristan-ips'
+  https://github.com/openhwgroup/uap
+url: 'https://tristan-project.eu/uap'
 abstract: >-
   It provides references and descriptions of all the TRISTAN
   and ISOLDE IPs (hardware and software). It serves as a

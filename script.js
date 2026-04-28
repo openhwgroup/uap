@@ -14,8 +14,8 @@
 // Configuration
 const BASE_URL =
 (window.location.href).replace("index.html", ""); //local hosting
-// 'https://cairo-caplan.github.io/tristan-isolde-unified-access-page';
-// 'https://api.github.com/repos/openhwgroup/tristan-isolde-unified-access-page/contents/';
+// 'https://cairo-caplan.github.io/uap';
+// 'https://api.github.com/repos/openhwgroup/uap/contents/';
 
 
 const IPS_PATH = '/ips/';
@@ -339,7 +339,7 @@ async function loadDataFromServer() {
       console.warn(`Primary fetch failed (${resp.status}) for ${ips_url}`);
       statusEl.textContent = `Fetch ${resp.status} from pages; trying GitHub API fallback…`;
       try {
-        const apiUrl = deriveGithubApiContentsUrl(BASE_URL) || 'https://api.github.com/repos/openhwgroup/tristan-isolde-unified-access-page/contents/ips';
+        const apiUrl = deriveGithubApiContentsUrl(BASE_URL) || 'https://api.github.com/repos/openhwgroup/uap/contents/ips';
         const apiResp = await fetch(apiUrl);
         if (apiResp.ok) {
           // Use the API response body as the primary 'text' source below
@@ -350,7 +350,7 @@ async function loadDataFromServer() {
           updateFetchSourceBadge(
             usedDerived ?
               'Derived GitHub API ' + apiUrl :
-              'Default GitHub API fallback (openhwgroup/tristan-isolde-unified-access-page)');
+              'Default GitHub API fallback (openhwgroup/uap)');
         } else {
           throw new Error(`API fallback fetch ${apiResp.status}`);
         }
@@ -418,7 +418,7 @@ async function loadDataFromServer() {
         try {
           statusEl.textContent = 'No files found in Pages listing — trying GitHub API fallback…';
           const derived = deriveGithubApiContentsUrl(BASE_URL);
-          const apiUrl = derived || 'https://api.github.com/repos/openhwgroup/tristan-isolde-unified-access-page/contents/ips';
+          const apiUrl = derived || 'https://api.github.com/repos/openhwgroup/uap/contents/ips';
           const apiResp = await fetch(apiUrl);
           if (apiResp && apiResp.ok) {
             const apiJson = await apiResp.json();
@@ -435,7 +435,7 @@ async function loadDataFromServer() {
                 updateFetchSourceBadge(
                   derived ?
                     'Derived GitHub API ' + apiUrl :
-                    'Default GitHub API fallback (openhwgroup/tristan-isolde-unified-access-page)');
+                    'Default GitHub API fallback (openhwgroup/uap)');
               }
             }
           }

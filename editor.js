@@ -13,7 +13,7 @@
 document.addEventListener('DOMContentLoaded', () => {
   document.body.classList.add('editor-page');
 
-  const GITHUB_API_URL = 'https://api.github.com/repos/openhwgroup/tristan-isolde-unified-access-page/contents/ips?ref=main';
+  const GITHUB_API_URL = 'https://api.github.com/repos/openhwgroup/uap/contents/ips?ref=main';
   const CATEGORIES_URL = 'cfg/categories.json';
   const LICENSES_URL = 'cfg/licenses.json';
 
