@@ -436,11 +436,11 @@
     "URL": "https://github.com/AbsInt/CompCert",
     "License": "dual licensed (see repository)",
     "Status": "In progress",
-    "Description": "CompCert is a formally-verified optimizing C compiler. As part of TRISTAN, it will be extended to support the HSI (hardware-supported instrumentation) interface of the TRISTAN trace IP.",
+    "Description": "CompCert is a formally-verified optimizing C compiler. As part of TRISTAN, it is extended to support the HSI (hardware-supported instrumentation) interface of the TRISTAN trace IP.",
     "Project": "TRISTAN",
     "WI": "WI4.2.4",
     "Partners": "AbsInt",
-    "Comment": "Waiting for WI2.1.4",
+    "Comment": "",
     "Category": "Software"
   },
   {
