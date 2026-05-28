@@ -337,74 +337,74 @@
   },
   {
     "Project": "ISOLDE",
-    "Name": "Forward-Edge Control Flow Integrity Unit",
+    "Name": "Inline Encryption Engine",
     "URL": "",
     "License": "Proprietary",
-    "Status": "",
-    "Description": "TBD",
+    "Status": "Verified",
+    "Description": "Provides low-latency tweakable memory encryption for mitigating logical and selected physical attacks.",
     "WI": [
-      "ID 3.1.03"
+      "ID 3.1.01"
     ],
     "Partners": "NXP-AT",
-    "Comment": "Proprietary",
-    "Category": "Accelerators and extensions"
+    "Comment": "",
+    "Category": "Accelerator, Extension"
   },
   {
     "Project": "ISOLDE",
     "Name": "Backward-Edge Control Flow Integrity Unit",
     "URL": "",
     "License": "Proprietary",
-    "Status": "",
-    "Description": "TBD",
+    "Status": "Verified",
+    "Description": "Ensures backward-edge control flow integrity by detecting tampering with return addresses under logical and selected physical attacks.",
     "WI": [
-      "ID 3.1.04"
+      "ID 3.1.02"
     ],
     "Partners": "NXP-AT",
-    "Comment": "Proprietary",
-    "Category": "Accelerators and extensions"
+    "Comment": "",
+    "Category": "Extension"
   },
   {
     "Project": "ISOLDE",
     "Name": "Cryptographically Tagged Memory Unit",
     "URL": "",
     "License": "Proprietary",
-    "Status": "",
-    "Description": "TBD",
+    "Status": "Verified",
+    "Description": "Enforces memory safety by tagging memory objects and their associated pointers, mitigating logical and selected physical attacks.",
     "WI": [
-      "ID 3.1.05"
+      "ID 3.1.03"
     ],
     "Partners": "NXP-AT",
-    "Comment": "Proprietary",
-    "Category": "Accelerators and extensions"
+    "Comment": "",
+    "Category": "Extension"
   },
   {
     "Project": "ISOLDE",
     "Name": "Enclave Memory Isolation Unit",
     "URL": "",
     "License": "Proprietary",
-    "Status": "",
-    "Description": "TBD",
+    "Status": "Verified",
+    "Description": "Enables cryptographic isolation of sensitive workloads in memory, mitigating logical and selected physical attacks.",
     "WI": [
-      "ID 3.1.06"
+      "ID 3.1.04"
     ],
     "Partners": "NXP-AT",
-    "Comment": "Proprietary",
-    "Category": "Accelerators and extensions"
+    "Comment": "",
+    "Category": "Extension"
   },
   {
     "Project": "ISOLDE",
-    "Name": "Lightweight Tweakable Inline Memory Encryption Engine",
+    "Name": "Forward-Edge Control Flow Integrity Unit",
     "URL": "",
     "License": "Proprietary",
-    "Status": "",
-    "Description": "TBD",
+    "Status": "Verified",
+    "Description": "Ensures instruction integrity, intra-basic-block execution integrity, and forward-edge control flow integrity under logical and physical attacks.",
     "WI": [
-      "ID 3.1.07"
+      "ID 3.1.05"
     ],
     "Partners": "NXP-AT",
-    "Comment": "Proprietary",
-    "Category": "Accelerators and extensions"
-  },
+    "Comment": "",
+    "Category": "Extension"
+  },  
   {
     "Project": "ISOLDE",
     "Name": "Memory subsystem support for Bytecode VMs",
