@@ -3,12 +3,12 @@
     "Name": "CVE2",
     "URL": "https://github.com/openhwgroup/cve2",
     "License": "Solderpad",
-    "Status": "In progress",
+    "Status": "Released",
     "Description": "A single-issue 2-stage pipeline embedded class of RISC-V CPUs",
     "Project": "TRISTAN",
     "WI": ["WI2.2.5", "WI2.2.8", "WI2.5.8"],
     "Partners": ["NXP", "Synthara", "Politecnico di Torino", "OpenHW Foundation"],
-    "Comment": "",
+    "Comment": "CV32E20 configuration",
     "Category": "Core"
   },
   {
@@ -51,12 +51,12 @@
     "Name": "CVA6",
     "URL": "https://github.com/openhwgroup/cva6",
     "License": "Solderpad",
-    "Status": "In progress",
+    "Status": "Released",
     "Description": "A configurable family of RISC-V application/embedded cores targetting FPGA and ASIC technologies",
     "Project": "TRISTAN",
     "WI": ["WI2.4.1", "WI2.4.2", "WI2.4.3", "WI2.4.5"],
     "Partners": ["Thales", "SYSGO", "TU Darmstadt", "Bosch"],
-    "Comment": "",
+    "Comment": "CV32A60X configuration",
     "Category": "Core"
   },
   {
