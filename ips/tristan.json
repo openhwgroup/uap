@@ -276,15 +276,15 @@
     "Category": "Peripherals"
   },
   {
-    "Name": "Accelerator for post-quantum cryptography",
-    "URL": "",
-    "License": "TBD",
-    "Status": "In progress",
+    "Name": "Keccak Accelerator for Post-Quantum Encryption",
+    "URL": "https://github.com/vlsi-lab/keccak",
+    "License": "Apache-2.0",
+    "Status": "Finished",
     "Description": "Post-Quantum Cryptographic Accelerator",
     "Project": "TRISTAN",
     "WI": "WI3.4.4",
     "Partners": ["Technische Universität München", "Politecnico di Torino"],
-    "Comment": "",
+    "Comment": "The repo contains both the standalone Keccak IP and the CVA6 integrated version",
     "Category": "Peripherals"
   },
   {
