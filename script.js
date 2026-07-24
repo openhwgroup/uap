@@ -23,6 +23,7 @@ const CATEGORIES_URL = 'cfg/categories.json';
 const PROJECTS_URL = 'cfg/projects.json';
 
 const defaultColumns = ["Name", "Category", "URL", "License", "Status", "Project", "Description"];
+const columnLabels = { "IP_CARD_URL": "IP Card" };
 let viewMode = "default";
 
 
@@ -602,7 +603,7 @@ function buildTable(skipPortalId = null) {
 
     const headerBtn = document.createElement('button');
     // text content is just the column name; caret is provided via CSS ::after
-    headerBtn.textContent = col;
+    headerBtn.textContent = columnLabels[col] || col;
     headerBtn.type = 'button';
     headerBtn.className = 'header-filter-btn';
     // Accessibility: indicate this button opens a popup and manage expanded state
@@ -1023,6 +1024,17 @@ function renderRows(rows) {
         }
       } else if (col === 'URL') {
         // Keep URL rendering for cases where URL is visible (fallback)
+        if (row[col]) {
+          const a = document.createElement('a');
+          a.href = row[col];
+          a.textContent = row[col];
+          a.target = '_blank';
+          a.rel = 'noopener noreferrer';
+          td.appendChild(a);
+        } else {
+          td.textContent = '';
+        }
+      } else if (col === 'IP_CARD_URL') {
         if (row[col]) {
           const a = document.createElement('a');
           a.href = row[col];

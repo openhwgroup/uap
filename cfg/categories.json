@@ -108,6 +108,10 @@
     "aliases": [""]
   },
   {
+    "name": "Network-on-Chip",
+    "aliases": ["NoC"]
+  },
+  {
     "name": "Others",
     "aliases": [""]
   }

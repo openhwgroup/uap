@@ -33,7 +33,8 @@ document.addEventListener('DOMContentLoaded', () => {
   let allowedCategories = [];
   let allowedLicenses = [];
   let allLicensesData = []; // Full license objects with both name and licenseId
-  const schemaColumns = ["Name", "Category", "URL", "License", "Status", "Description", "WI", "Partners", "Comment"];
+  const columnLabels = { "IP_CARD_URL": "IP Card" };
+const schemaColumns = ["Name", "Category", "URL", "License", "Status", "Description", "WI", "Partners", "Comment", "IP_CARD_URL"];
 
   // --- INITIALIZATION ---
 
@@ -191,7 +192,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     }
 
-    const outputOrder = ["Name", "URL", "License", "Status", "Description", "Project", "WI", "Partners", "Comment", "Category"];
+    const outputOrder = ["Name", "URL", "License", "Status", "Description", "Project", "WI", "Partners", "Comment", "Category", "IP_CARD_URL"];
 
     // Add the project name to every entry
     const dataToSave = currentData.map(row => {
@@ -236,7 +237,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     schemaColumns.forEach(col => {
       const th = document.createElement('th');
-      th.textContent = col;
+      th.textContent = columnLabels[col] || col;
       headerRow.appendChild(th);
     });
     thead.appendChild(headerRow);

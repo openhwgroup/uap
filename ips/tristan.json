@@ -2,7 +2,7 @@
   {
     "Name": "CVE2",
     "URL": "https://github.com/openhwgroup/cve2",
-    "License": "Solderpad",
+    "License": "Apache-2.0",
     "Status": "Released",
     "Description": "A single-issue 2-stage pipeline embedded class of RISC-V CPUs",
     "Project": "TRISTAN",
@@ -14,7 +14,7 @@
   {
     "Name": "RVB / RVP Standard Extensions support for CV32E40P core",
     "URL": "https://github.com/MPEZZIN/cv32e40p",
-    "License": "Solderpad",
+    "License": "SHL-0.51",
     "Status": "In progress",
     "Description": "Development of light-weight RISC-V Instruction Set Architecture (ISA) extensions to improve the energy efficiency of low-bit-width mixed-precision integer arithmetic",
     "Project": "TRISTAN",
@@ -26,7 +26,7 @@
   {
     "Name": "Extensions to the micro-architecture of CV32E40P core",
     "URL": "https://github.com/pulp-platform/cv32e40p",
-    "License": "Solderpad",
+    "License": "SHL-0.51",
     "Status": "In progress",
     "Description": "",
     "Project": "TRISTAN",
@@ -38,7 +38,7 @@
   {
     "Name": "VSRV: Simple 32-bit RISC-V Linux-Capable Core",
     "URL": "https://www.vlsi.fi/en/vsrv.html",
-    "License": "Solderpad",
+    "License": "SHL-2.1",
     "Status": "Released",
     "Description": "32-bit compact RISC-V processor that runs off-the-shelf protocols under latest linux kernel",
     "Project": "TRISTAN",
@@ -50,7 +50,7 @@
   {
     "Name": "CVA6",
     "URL": "https://github.com/openhwgroup/cva6",
-    "License": "Solderpad",
+    "License": "SHL-0.51",
     "Status": "Released",
     "Description": "A configurable family of RISC-V application/embedded cores targetting FPGA and ASIC technologies",
     "Project": "TRISTAN",
@@ -62,7 +62,7 @@
   {
     "Name": "RVV coprocessor for CVA6",
     "URL": "https://github.com/pulp-platform/ara",
-    "License": "Solderpad",
+    "License": "SHL-0.51",
     "Status": "Released",
     "Description": "RVV (vector) co-processor for CVA6 with support for low precision integer arithmetic (down to 8-bit vector data types) and multi-precision floating-point operations ",
     "Project": "TRISTAN",
@@ -74,7 +74,7 @@
   {
     "Name": "Timing Channel Protection",
     "URL": "https://github.com/pulp-platform/cva6",
-    "License": "Solderpad",
+    "License": "SHL-0.51",
     "Status": "Released",
     "Description": "Increasing the security features of CVA6. In particular, it provides support for timing channel protection in CVA6",
     "Project": "TRISTAN",
@@ -86,7 +86,7 @@
   {
     "Name": "UVM env and testbench for the CVA6 core",
     "URL": "https://github.com/openhwgroup/core-v-verif/tree/60e57248c48b0f8f90cf52af20aecc5c16e9d6d8",
-    "License": "Solderpad",
+    "License": "SHL-2.0",
     "Status": "Finished",
     "Description": "UVM environment for the verification of RISC-V cores, supporting a thorough verification of the CVA6 (and other) cores to reach TRL-5",
     "Project": "TRISTAN",
@@ -97,8 +97,8 @@
   },
   {
     "Name": "Compression and decompression of digital waveforms",
-    "URL": "https://github.com/semify-eda/tristan/tree/f6516af367ea9729658724e39aa83fa65c2aa884",
-    "License": "TBD",
+    "URL": "https://github.com/semify-eda/tristan/tree/main",
+    "License": "SHL-2.1",
     "Status": "Finished",
     "Description": "Custom instructions for CV32E40X / CV32A60X cores to improve the performance of real-time compression and decompression of digital waveforms.",
     "Project": "TRISTAN",
@@ -110,7 +110,7 @@
   {
     "Name": "C-Trace",
     "URL": "https://accemic.com/c-trace/",
-    "License": "CERN-OHL-S",
+    "License": ["CERN-OHL-S-2.0","ISC","CC-BY-4.0","Proprietary"],
     "Status": "Done",
     "Description": "Architecture and design of RISC-V Trace IP",
     "Project": "TRISTAN",
@@ -122,7 +122,7 @@
   {
     "Name": "Hypervisor",
     "URL": "https://github.com/openhwgroup/cva6",
-    "License": "Solderpad",
+    "License": "SHL-0.51",
     "Status": "Released",
     "Description": "Hypervisor support for CVA6 complying with the RISC-V hypervisor extension specifications",
     "Project": "TRISTAN",
@@ -134,7 +134,7 @@
   {
     "Name": "Riviera: RISC-V ISA Extensions for NFC Applications",
     "URL": "https://github.com/NXP-AT-RIVIERA/Riviera_core/tree/main",
-    "License": "LA_OPT_NXP Software License",
+    "License": "LA_OPT_NXP_Software_License",
     "Status": "Design and Verification completed",
     "Description": "CV-X-IF compliant RISC-V Co-processor for a NFC Receiver decoder custom DSP acceleration",
     "Project": "TRISTAN",
@@ -146,7 +146,7 @@
   {
     "Name": "SCAIE-V custom instruction interface for CVA6",
     "URL": "https://github.com/esa-tu-darmstadt/SCAIE-V-2.0",
-    "License": "Apache 2.0",
+    "License": "Apache-2.0",
     "Status": "Released",
     "Description": "SCAIE-V is a portable and scalable hardware interface for easily adding custom instructions to processors ranging from microcontrollers to application-level cores",
     "Project": "TRISTAN",
@@ -158,7 +158,7 @@
   {
     "Name": "TSN-Trace-Link",
     "URL": "https://github.com/Fraunhofer-IPMS-DCC/Trace-Link",
-    "License": "Solderpad",
+    "License": "SHL-2.1",
     "Status": "Released",
     "Description": "A secured transmission trace bus with message, TSN and control flow reconstruction elements",
     "Project": "TRISTAN",
@@ -170,7 +170,7 @@
   {
     "Name": "GPIO",
     "URL": "https://github.com/MPEZZIN/gpio",
-    "License": "Solderpad",
+    "License": "SHL-0.51",
     "Status": "Finished",
     "Description": "A simple GPIO interface controlled via an APB bus",
     "Project": "TRISTAN",
@@ -182,7 +182,7 @@
   {
     "Name": "UART 16750",
     "URL": "https://github.com/MPEZZIN/uart_16750",
-    "License": "Solderpad / LGPL-2.1",
+    "License": ["SHL-0.51","LGPL-2.1"],
     "Status": "Finished",
     "Description": "A UART interface controlled via an APB bus",
     "Project": "TRISTAN",
@@ -194,7 +194,7 @@
   {
     "Name": "SPI Master",
     "URL": "https://github.com/MPEZZIN/spi_master",
-    "License": "Solderpad",
+    "License": "SHL-0.51",
     "Status": "Finished",
     "Description": "An SPI master that is controlled via an AXI bus",
     "Project": "TRISTAN",
@@ -206,7 +206,7 @@
   {
     "Name": "HPDcache",
     "URL": "https://github.com/openhwgroup/cv-hpdcache",
-    "License": "Solderpad",
+    "License": "SHL-2.1",
     "Status": "Finished",
     "Description": "An open-source High-Performance, Multi-requester, Out-of-Order L1 Data Cache for RISC-V cores and accelerators.",
     "Project": "TRISTAN",
@@ -230,7 +230,7 @@
   {
     "Name": "AXI LLC",
     "URL": "https://github.com/pulp-platform/axi_llc",
-    "License": "Solderpad",
+    "License": "SHL-0.51",
     "Status": "Released",
     "Description": "A parameterizable and runtime-configurable AXI4-compliant last-level cache (LLC)",
     "Project": "TRISTAN",
@@ -242,7 +242,7 @@
   {
     "Name": "AXI",
     "URL": "https://github.com/pulp-platform/axi",
-    "License": "Solderpad",
+    "License": "SHL-0.51",
     "Status": "Released",
     "Description": "AXI SystemVerilog synthesizable IP modules and verification infrastructure for high-performance on-chip communication",
     "Project": "TRISTAN",
@@ -254,7 +254,7 @@
   {
     "Name": "OBI interconnect",
     "URL": "https://github.com/MPEZZIN/obi_interconnect",
-    "License": "Solderpad",
+    "License": "SHL-0.51",
     "Status": "Finished",
     "Description": "OBI Components: AHB2OBI Bridge, OBI2AHB Bridge, OBI2APB Bridge, OBI2OBI Bridge, OBI XBAR Bridge",
     "Project": "TRISTAN",
@@ -266,7 +266,7 @@
   {
     "Name": "eFPGA",
     "URL": "https://github.com/yongatek/eFPGA",
-    "License": "Solderpad",
+    "License": "SHL-2.1",
     "Status": "Released",
     "Description": "An embedded FPGA IP to offload certain processor tasks and improve overall system performance",
     "Project": "TRISTAN",
@@ -290,8 +290,8 @@
   {
     "Name": "Low-power IO DMA",
     "URL": "https://github.com/pulp-platform/udma_core",
-    "License": "Solderpad",
-    "Status": "In progress",
+    "License": "SHL-0.51",
+    "Status": "Released",
     "Description": "A Low Power IO DMA controller with multi-bank memory access and performance enhancements",
     "Project": "TRISTAN",
     "WI": "WI3.1.4",
@@ -302,8 +302,8 @@
   {
     "Name": "Heterogeneous Cluster Interconnect (HCI)",
     "URL": "https://github.com/pulp-platform/hci",
-    "License": "Solderpad",
-    "Status": "In progress",
+    "License": "SHL-0.51",
+    "Status": "Released",
     "Description": "Heterogeneous Cluster Interconnect to bind special-purpose HW accelerators with general-purpose cluster cores",
     "Project": "TRISTAN",
     "WI": "WI3.2.2",
@@ -314,8 +314,8 @@
   {
     "Name": "Reduced-Precision Matrix Multiplication Engine",
     "URL": "https://github.com/pulp-platform/redmule",
-    "License": "Solderpad",
-    "Status": "In progress",
+    "License": "SHL-0.51",
+    "Status": "Released",
     "Description": "Low-Power Floating-Point Accelerator",
     "Project": "TRISTAN",
     "WI": "WI3.4.1",
@@ -326,7 +326,7 @@
   {
       "Name": "SPEDE",
       "URL": "https://github.com/soc-hub-fi/spede",
-      "License": "Apache-2.0 WITH SHL-2.1",
+      "License": "SHL-2.1",
       "Status": "Finished",
       "Description": "High-speed serializer/deserializer for synchronization and conversion between serial bitstreams and bytes.",
       "Project": "TRISTAN",
@@ -342,15 +342,15 @@
     "Status": "Released",
     "Description": "Renode is a development framework created by Antmicro, that accelerates hardware product development by letting users simulate complete, complex hardware systems - including both the CPU, peripherals, sensors, environment and wired or wireless medium between nodes. Renode supports hundreds of embedded platforms and comes with a range of developer-oriented features such as state saving and replaying, advanced hooks and events, comprehensive tracing, multi-core debugging, etc.",
     "Project": "TRISTAN",
-    "WI": "WI4.1.1",
+    "WI": ["WI4.1.1", "WI5.1.1"],
     "Partners": "Antmicro",
-    "Comment": "",
-    "Category": "Software"
+    "Comment": "Used by: Tampere University, Nokia, Cargotec",
+    "Category": ["Software","Tool"]
   },
   {
     "Name": "TimeWeaver",
     "URL": "https://www.absint.com/timeweaver/",
-    "License": "proprietary",
+    "License": "Proprietary",
     "Status": "Released",
     "Description": "TimeWeaver is a hybrid measurement-based timing analysis tool to determine the WCET of safety-critical embedded software. As part of TRISTAN, it has been ported to include support for RISC-V processors using the TRISTAN trace IP.",
     "Project": "TRISTAN",
@@ -374,7 +374,7 @@
   {
     "Name": "GCC Toolchain for mixed-precision ISA extensions",
     "URL": "https://github.com/pulp-platform/pulp-riscv-gnu-toolchain/tree/float8-support",
-    "License": "GPL2",
+    "License": "GPL-2.0",
     "Status": "Released",
     "Description": "Support of the VPFloat ISA into GCC/Binutils",
     "Project": "TRISTAN",
@@ -386,7 +386,7 @@
   {
     "Name": "COREV GCC",
     "URL": "https://github.com/EEESlab/corev-gcc/tree/tristan-dev",
-    "License": "GPL-2.0, LGPL-2.1, GCC Runtime Library Exception",
+    "License": ["GPL-2.0","LGPL-2.1","GCC-exception-3.1"],
     "Status": "Released",
     "Description": "The CORE-V GCC repository provides a fork of the GNU Compiler Collection (GCC) tailored for the CORE-V family of open-source RISC-V processor cores. It includes custom enhancements and optimizations to support CORE-V-specific architectural features and instructions. The fork provides the compiler backend support for the low-precision and mixed-precision extensions designed in TRISTAN.",
     "Project": "TRISTAN",
@@ -398,7 +398,7 @@
   {
     "Name": "COREV Binutils",
     "URL": "https://github.com/EEESlab/corev-binutils-gdb/tree/tristan-dev",
-    "License": "GPL-2.0, GNU Library General Public License, version 2.0",
+    "License": ["GPL-2.0", "LGPL-2.0+", "BSD-3-Clause"],
     "Status": "Released",
     "Description": "The CORE-V binutils repository contains a customized version of the GNU binutils suite designed for the CORE-V family of RISC-V processor cores. It includes tools like the assembler, linker, and related utilities, enhanced to support CORE-V-specific instruction sets and architectural extensions. The fork adds the binary support required to assemble the low-precision and mixed-precision instructions in the TRISTAN extensions.",
     "Project": "TRISTAN",
@@ -410,7 +410,7 @@
   {
     "Name": "GCC/Binutils for VPFloat ISA",
     "URL": "https://github.com/CEA-LIST/vxp_binutils",
-    "License": "GPL2",
+    "License": ["GPL-2.0", "LGPL-2.0+", "BSD-3-Clause"],
     "Status": "Released",
     "Description": "TimeWeaver is a hybrid measurement-based timing analysis tool to determine the WCET of safety-critical embedded software. As part of TRISTAN, it has been ported to include support for RISC-V processors using the TRISTAN trace IP.",
     "Project": "TRISTAN",
@@ -422,7 +422,7 @@
   {
     "Name": "VxP Tools and Libraries",
     "URL": "https://github.com/orgs/CEA-LIST/repositories?q=vxp",
-    "License": "Apache-2.0",
+    "License": ["GPL-2.0", "LGPL-2.0+", "BSD-3-Clause","Apache-2.0"],
     "Status": "Released",
     "Description": "A subset of the GNU binutils v2.34 and v2.38 has been enhanced to support encoding/decoding of the RISC-V ISA extension for VXP.",
     "Project": "TRISTAN",
@@ -434,7 +434,7 @@
   {
     "Name": "CompCert",
     "URL": "https://github.com/AbsInt/CompCert",
-    "License": "dual licensed (see repository)",
+    "License": ["LGPL-2.1","inria-compcert"],
     "Status": "Released",
     "Description": "CompCert is a formally-verified optimizing C compiler. As part of TRISTAN, it is extended to support the HSI (hardware-supported instrumentation) interface of the TRISTAN trace IP.",
     "Project": "TRISTAN",
@@ -446,7 +446,7 @@
   {
     "Name": "Support of VPFloat datatypes in the C language",
     "URL": "https://github.com/CEA-LIST/vxp_devkit",
-    "License": "Apache 2.0",
+    "License": "Apache-2.0",
     "Status": "Released",
     "Description": "The VPSDK (Variable Precision Software Development Kit) is a C/C++ library developed by CEA, offering software interfaces for variable precision computations. It includes VPFloat for scalar values, VBLAS for inear algebra routines, and VPSolver for computation kernels, enabling precise numerical calculations across arious applications.",
     "Project": "TRISTAN",
@@ -458,7 +458,7 @@
   {
     "Name": "Zephyr",
     "URL": "https://github.com/zephyrproject-rtos/zephyr/",
-    "License": "Apache 2.0",
+    "License": "Apache-2.0",
     "Status": "Released",
     "Description": "The Zephyr Project is a scalable real-time operating system (RTOS) supporting multiple hardware architectures, optimized for resource constrained devices, and built with security in mind.",
     "Project": "TRISTAN",
@@ -506,7 +506,7 @@
   {
     "Name": "ELinOS embedded Linux for RISC-V",
     "URL": "https://www.sysgo.com/elinos",
-    "License": "GPL",
+    "License": "Proprietary",
     "Status": "Released",
     "Description": "ELinOS is an Embedded Linux distribution and industrial grade Linux with the user-friendly CODEO IDE to build state-of-the-art embedded solutions in a time-saving and cost-efficient manner; also dedicated support from SYSGO is available. ELinOS has strong focus on Security with container support and services, providing drivers, connectivity stacks, real-time extensions and support for industrial hardware (e.g. since long ARM, x86, PowerPC, and, since 2024, RISC-V).",
     "Project": "TRISTAN",
@@ -530,7 +530,7 @@
   {
     "Name": "Cloud Connector",
     "URL": "https://github.com/tianhailiu/tristan-cloud-connector",
-    "License": "GPL",
+    "License": "GPL-3.0",
     "Status": "Released",
     "Description": "Cloud Connector is a software module that runs on JamaicaAMS and is used to exchange data with the cloud (customized aicas EDG) via the MQTT protocol. It is compatible with the OSGi specification and leverages the realtime capabilities of JamaicaAMS. It was newly developed by aicas for this project.",
     "Project": "TRISTAN",
@@ -542,7 +542,7 @@
   {
     "Name": "Depthwise separable convolution fusion",
     "URL": "https://github.com/eml-eda/depthwise-separable-fusion",
-    "License": "",
+    "License": "Others",
     "Status": "Released",
     "Description": "Kernels for GAP8 implementing the layer fusion of depthwise convolution and pointwise convolutions.",
     "Project": "TRISTAN",
@@ -554,7 +554,7 @@
   {
     "Name": "Pulp-NN-sparse",
     "URL": "https://github.com/eml-eda/pulp-nn-sparse",
-    "License": "",
+    "License": "Others",
     "Status": "Released",
     "Description": "Kernels for weight sparsity",
     "Project": "TRISTAN",
@@ -566,7 +566,7 @@
   {
     "Name": "CMSIS-like Open-Source AI, DSP and compute (e.g. BLAS) libraries",
     "URL": "https://github.com/eml-eda/RiscV-NN",
-    "License": "",
+    "License": "Others",
     "Status": "Released",
     "Description": "A set of extensions to the open-source PULP-NN library for accelerating AI workloads on RISC-V-based platforms (mainly but not limited to multi-core clusters). Extensions include kernels for fused depthwise-separable convolutions, attention layers, and N:M sparsity.",
     "Project": "TRISTAN",
@@ -602,7 +602,7 @@
   {
     "Name": "Keelhaul",
     "URL": "https://github.com/soc-hub-fi/keelhaul",
-    "License": "Apache-2.01",
+    "License": "Apache-2.0",
     "Status": "Released",
     "Description": "Tool to generate executable, memory-mapped I/O verification test cases from IP-XACT or CMSIS-SVD files.",
     "Project": "TRISTAN",
@@ -614,7 +614,7 @@
   {
     "Name": "RISC-V support for RTIC",
     "URL": "https://github.com/rtic-rs/rtic",
-    "License": "Apache 2.0",
+    "License": ["Apache-2.0","CC-BY-SA-4.0","MIT"],
     "Status": "Released",
     "Description": "RTIC is a framework used to deploy hard real-time applications scheduled under Stack Resource Policy. The framework finds utility in safety-critical systems where bounded real-time task latency needs to be guaranteed on lightweight embedded systems.",
     "Project": "TRISTAN",
@@ -662,7 +662,7 @@
   {
     "Name": "Device Client",
     "URL": "https://github.com/tianhailiu/tristan-device-client",
-    "License": "GPL",
+    "License": "GPL-3.0",
     "Status": "Released",
     "Description": "Device Client is a group of software modules that run on JamaicaAMS. It securely connects to the Cloud (aicas EDP) to get device status and configuration information, and operates the configuration and OSGi bundle lifecycle on RISC-V devices. It contains several components that were customized for this project.",
     "Project": "TRISTAN",
@@ -670,18 +670,6 @@
     "Partners": "aicas",
     "Comment": "",
     "Category": "Software"
-  },
-  {
-    "Name": "Renode",
-    "URL": "https://github.com/renode/renode",
-    "License": "MIT",
-    "Status": "Released",
-    "Description": "Simulation Framework",
-    "Project": "TRISTAN",
-    "WI": "WI5.1.1",
-    "Partners": "Antmicro",
-    "Comment": "Used by: Tampere University, Nokia, Cargotec",
-    "Category": "Tools"
   },
   {
     "Name": "ETISS",
@@ -770,7 +758,7 @@
   {
     "Name": "Yosys",
     "URL": "https://github.com/YosysHQ/yosys",
-    "License": "ISC License",
+    "License": "ISC",
     "Status": "Released",
     "Description": "Open Synthesis Suite​​​",
     "Project": "TRISTAN",
@@ -854,7 +842,7 @@
   {
     "Name": "VPTOOL",
     "URL": "https://github.com/openhwgroup/core-v-verif/tree/master/tools/vptool",
-    "License": "Solderpad",
+    "License": "SHL-2.0",
     "Status": "Released",
     "Description": "Graphical editor of a Design Verification Plan ​",
     "Project": "TRISTAN",
@@ -866,19 +854,19 @@
   {
     "Name": "SoCSmith",
     "URL": "",
-    "License": "Apache 2.0",
-    "Status": "In progress (documentation currently being written, release planned later in 2026).",
+    "License": "Apache-2.0",
+    "Status": "In progress",
     "Description": "Automated composition and optimization of compute-intensive SoCs from abstract high-level descriptions​ ​",
     "Project": "TRISTAN",
     "WI": "WI5.3.1",
     "Partners": "Technische Universität Darmstadt",
-    "Comment": "Used by: MINRES Technologies, Tampere University",
+    "Comment": "Documentation currently being written, release planned later in 2026. Used by: MINRES Technologies, Tampere University",
     "Category": "Tools"
   },
   {
     "Name": "CORE-V-VERIF",
     "URL": "https://github.com/openhwgroup/core-v-verif",
-    "License": "Apache-2.0",
+    "License": "SHL-2.0",
     "Status": "Released",
     "Description": "UVM functional verification environment for the OpenHW CORE-V family of RISC-V cores.",
     "Project": "TRISTAN",
@@ -890,7 +878,7 @@
   {
     "Name": "Co-processor Generator Tool",
     "URL": "https://github.com/cpc/openasip",
-    "License": "Tool: LGPL v2.1",
+    "License": "LGPL-2.1",
     "Status": "Released",
     "Description": "Tool to generate CV-X-IF and RoCC compliant co-processors based on user definition of operations/instructions.",
     "Project": "TRISTAN",
@@ -926,7 +914,7 @@
   {
     "Name": "uArchiFI",
     "URL": "https://github.com/CEA-LIST/uArchiFI",
-    "License": "Mozilla Public License",
+    "License": "LGPL-2.1",
     "Status": "Released",
     "Description": "Formal tool for analyzing the robustness of embedded systems against fault injection attacks by combining the RTL of a processor, the binary of a software, and an attacker model.",
     "Project": "TRISTAN",
@@ -950,7 +938,7 @@
   {
     "Name": "CV-VeriGen",
     "URL": "https://github.com/synthara/core-v-verif-v2",
-    "License": "Solderpad",
+    "License": "SHL-2.0",
     "Status": "Released",
     "Description": "UVM SystemVerilog RISC-V CPU model for functional verification of custom ISA (support for CV-X-IF)",
     "Project": "TRISTAN",

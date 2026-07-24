@@ -2,25 +2,27 @@
   {
     "Name": "RISC-V Main Processor Complex",
     "Category" : ["Hardware", "RISC-V Processing System"],
+    "IP_CARD_URL": "",
     "URL": "",
     "Project": "REBECCA",
     "WI": [""],
     "Partners": "Open-Source",
     "Status": "Work in progress",
     "Description": "A four-core CVA6 ISA RISC-V implementation",
-    "License": "Apache",
-    "Comment": "TBD"
+    "License": "Others",
+    "Comment": "Open-Source. TBD"
   },
   {
     "Name": "AXI Crossbar for Central Interconnect",
     "Category" : ["Hardware", "RISC-V Processing System"],
+    "IP_CARD_URL": "",
     "URL": "",
     "Project": "REBECCA",
     "WI": [""],
     "Partners": "EXA",
     "Status": "",
     "Description": "A crossbar that allows for the interfacing between the RISC-V processor and various peripherals inside the chiplet",
-    "License": "TBD",
+    "License": "Others",
     "Comment": "TBD"
   },
   {
@@ -44,7 +46,7 @@
     "Partners": "IMEC",
     "Status": "",
     "Description": "AI accelerator inside the REBECCA chiplet that brings exploits neuromorphic architectures offering scalability and energy efficiency.",
-    "License": "TBD",
+    "License": "Others",
     "Comment": "TBD"
   },
   {
@@ -56,7 +58,7 @@
     "Partners": "LUND",
     "Status": "",
     "Description": "Co-processor inside the REBECCA chiplet",
-    "License": "TBD",
+    "License": "Others",
     "Comment": "TBD"
   },
   {
@@ -68,7 +70,7 @@
     "Partners": "SYN",
     "Status": "",
     "Description": "",
-    "License": "TBD",
+    "License": "Others",
     "Comment": "TBD"
   },
   {
@@ -80,7 +82,7 @@
     "Partners": "FORTH",
     "Status": "",
     "Description": "",
-    "License": "TBD",
+    "License": "Others",
     "Comment": "TBD"
   },
   {
@@ -92,7 +94,7 @@
     "Partners": "CSEM",
     "Status": "",
     "Description": "",
-    "License": "TBD",
+    "License": "Others",
     "Comment": "TBD"
   },
   {
@@ -104,7 +106,7 @@
     "Partners": "POLITO",
     "Status": "",
     "Description": "",
-    "License": "TBD",
+    "License": "Others",
     "Comment": "TBD"
   },
   {
@@ -116,7 +118,7 @@
     "Partners": "EXA",
     "Status": "",
     "Description": "Chip2FPGA Controller",
-    "License": "TBD",
+    "License": "Others",
     "Comment": "TBD"
   },
   {
@@ -128,7 +130,7 @@
     "Partners": "FRAUN",
     "Status": "",
     "Description": "Chiplet Interconnection",
-    "License": "TBD",
+    "License": "Others",
     "Comment": "TBD"
   },
   {
@@ -140,7 +142,7 @@
     "Partners": "Open-Source",
     "Status": "",
     "Description": "Coherent data for ASIC accelerators accessing L2 cache",
-    "License": "TBD",
+    "License": "Others",
     "Comment": "TBD"
   },
   {
@@ -152,7 +154,7 @@
     "Partners": "EXA",
     "Status": "",
     "Description": "Fast data transfer support between RISC-V subsystem and external memories",
-    "License": "TBD",
+    "License": "Others",
     "Comment": "TBD"
   },
   {
@@ -164,22 +166,9 @@
     "Partners": "EXA",
     "Status": "",
     "Description": "Support for BootROM as well as BootRAM for SD and/or JTAG boot",
-    "License": "TBD",
+    "License": "Others",
     "Comment": "TBD"
   },
-  {
-    "Name": "Booting Devices",
-    "Category" : "Hardware",
-    "URL": "",
-    "Project": "REBECCA",
-    "WI": [""],
-    "Partners": "EXA",
-    "Status": "",
-    "Description": "Support for BootROM as well as BootRAM for SD and/or JTAG boot",
-    "License": "TBD",
-    "Comment": "TBD"
-  },
-  
   {
     "Name": "PikeOS and Hypervisor",
     "Category" : ["Software", "System Software"],
@@ -189,7 +178,7 @@
     "Partners": "SYSGO",
     "Status": "",
     "Description": "",
-    "License": "TBD",
+    "License": "Others",
     "Comment": "TBD"
   },
   {
@@ -201,8 +190,9 @@
     "Partners": "FENTISS",
     "Status": "",
     "Description": "",
-    "License": "TBD",
-    "Comment": "TBD"
+    "License": "Others",
+    "Comment": "TBD",
+    "IP_CARD_URL": "https://github.com/pulp-unibo/ip-card/blob/main/examples/FENTISS_xng.json"
   },
   {
     "Name": "Kubernetes",
@@ -213,7 +203,7 @@
     "Partners": "FORTH",
     "Status": "",
     "Description": "",
-    "License": "TBD",
+    "License": "Others",
     "Comment": "TBD"
   },
   {
@@ -225,7 +215,7 @@
     "Partners": "ZHAW",
     "Status": "",
     "Description": "",
-    "License": "TBD",
+    "License": "Others",
     "Comment": "TBD"
   },
   {
@@ -237,7 +227,7 @@
     "Partners": "ALM",
     "Status": "",
     "Description": "",
-    "License": "TBD",
+    "License": "Others",
     "Comment": "TBD"
   },
   {
@@ -249,7 +239,7 @@
     "Partners": "ALM",
     "Status": "",
     "Description": "",
-    "License": "TBD",
+    "License": "Others",
     "Comment": "TBD"
   },
   {
@@ -261,7 +251,7 @@
     "Partners": "Klepsydra",
     "Status": "",
     "Description": "",
-    "License": "TBD",
+    "License": "Others",
     "Comment": "TBD"
   },
   {
@@ -273,7 +263,7 @@
     "Partners": "Klepsydra",
     "Status": "",
     "Description": "",
-    "License": "TBD",
+    "License": "Others",
     "Comment": "TBD"
   },
   {
@@ -285,7 +275,7 @@
     "Partners": "Klepsydra",
     "Status": "",
     "Description": "",
-    "License": "TBD",
+    "License": "Others",
     "Comment": "TBD"
   },
   {
@@ -297,7 +287,7 @@
     "Partners": "BCA",
     "Status": "",
     "Description": "",
-    "License": "TBD",
+    "License": "Others",
     "Comment": "TBD"
   },
   {
@@ -309,7 +299,7 @@
     "Partners": "BSC",
     "Status": "",
     "Description": "",
-    "License": "TBD",
+    "License": "Others",
     "Comment": "TBD"
   },
   {
@@ -321,7 +311,7 @@
     "Partners": "SML",
     "Status": "",
     "Description": "",
-    "License": "TBD",
+    "License": "Others",
     "Comment": "TBD"
   },
   {
@@ -333,7 +323,7 @@
     "Partners": "ARCELIK",
     "Status": "",
     "Description": "",
-    "License": "TBD",
+    "License": "Others",
     "Comment": "TBD"
   },
   {
@@ -345,7 +335,7 @@
     "Partners": "IMEC",
     "Status": "",
     "Description": "",
-    "License": "TBD",
+    "License": "Others",
     "Comment": "TBD"
   },
   {
@@ -357,7 +347,7 @@
     "Partners": "SYN",
     "Status": "",
     "Description": "",
-    "License": "TBD",
+    "License": "Others",
     "Comment": "TBD"
   },
   {
@@ -369,7 +359,7 @@
     "Partners": "CSEM",
     "Status": "",
     "Description": "",
-    "License": "TBD",
+    "License": "Others",
     "Comment": "TBD"
   },
   {
@@ -381,7 +371,7 @@
     "Partners": "POLITO",
     "Status": "",
     "Description": "",
-    "License": "TBD",
+    "License": "Others",
     "Comment": "TBD"
   },
   {
@@ -393,7 +383,7 @@
     "Partners": "ZHAW",
     "Status": "",
     "Description": "",
-    "License": "TBD",
+    "License": "Others",
     "Comment": "TBD"
   },
   {
@@ -405,7 +395,7 @@
     "Partners": "ALM",
     "Status": "",
     "Description": "",
-    "License": "TBD",
+    "License": "Others",
     "Comment": "TBD"
   }
 ]

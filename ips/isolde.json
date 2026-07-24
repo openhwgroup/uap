@@ -3,29 +3,31 @@
     "Project": "ISOLDE",
     "Name": "NOEL-V processor extensions",
     "URL": "",
-    "License": "GPL",
+    "License": ["GPL-2.0-or-later","Proprietary"],
     "Status": "",
     "Description": "TBD",
     "WI": [
       "ID 2.1.01"
     ],
     "Partners": "GSL",
-    "Comment": "GPL",
-    "Category": "Cores, interfaces, peripherals & NoCs"
-  },
+    "Comment": "GPL. ISOLDE Category 'Cores, interfaces, peripherals & NoCs'",
+    "Category": ["Core","Extension"],
+    "IP_CARD_URL": ""
+    },
   {
     "Project": "ISOLDE",
     "Name": "CVA6 processor extensions",
     "URL": "",
-    "License": "Solderpad",
+    "License": "SHL-2.1",
     "Status": "",
     "Description": "TBD",
     "WI": [
       "ID 2.1.02"
     ],
     "Partners": "TDIS",
-    "Comment": "Solderpad",
-    "Category": "Cores, interfaces, peripherals & NoCs"
+    "Comment": "Solderpad. ISOLDE Category 'Cores, interfaces, peripherals & NoCs'",
+    "Category": ["Core","Extension"],
+    "IP_CARD_URL": ""
   },
   {
     "Project": "ISOLDE",
@@ -38,22 +40,24 @@
       "ID 2.1.03"
     ],
     "Partners": "HM",
-    "Comment": "MIT",
-    "Category": "Cores, interfaces, peripherals & NoCs"
+    "Comment": "MIT. ISOLDE Category 'Cores, interfaces, peripherals & NoCs'",
+    "Category": ["Core","Extension"],
+    "IP_CARD_URL": ""
   },
   {
     "Project": "ISOLDE",
     "Name": "Testing Design Parameters for CVA6",
     "URL": "",
-    "License": "Open Source",
+    "License": "Others",
     "Status": "",
     "Description": "TBD",
     "WI": [
       "ID 2.1.04"
     ],
     "Partners": "UZL",
-    "Comment": "Open Source",
-    "Category": "Cores, interfaces, peripherals & NoCs"
+    "Comment": "Open Source. ISOLDE Category 'Cores, interfaces, peripherals & NoCs'",
+    "Category": ["Core", "Tool"],
+    "IP_CARD_URL": ""
   },
   {
     "Project": "ISOLDE",
@@ -66,22 +70,24 @@
       "ID 2.1.05"
     ],
     "Partners": "IFX",
-    "Comment": "Proprietary",
-    "Category": "Cores, interfaces, peripherals & NoCs"
+    "Comment": "Proprietary. ISOLDE Category 'Cores, interfaces, peripherals & NoCs'",
+    "Category": ["Tool"],
+    "IP_CARD_URL": ""
   },
   {
     "Project": "ISOLDE",
     "Name": "Context-Aware Bus",
     "URL": "",
-    "License": "Solderpad",
+    "License": "SHL-2.1",
     "Status": "",
     "Description": "TBD",
     "WI": [
       "ID 2.2.01"
     ],
     "Partners": "TRT",
-    "Comment": "Solderpad",
-    "Category": "Cores, interfaces, peripherals & NoCs"
+    "Comment": "Solderpad. ISOLDE Category 'Cores, interfaces, peripherals & NoCs'",
+    "Category": ["Interface"],
+    "IP_CARD_URL": ""
   },
   {
     "Project": "ISOLDE",
@@ -94,8 +100,9 @@
       "ID 2.2.02"
     ],
     "Partners": "UPV",
-    "Comment": "MIT",
-    "Category": "Cores, interfaces, peripherals & NoCs"
+    "Comment": "MIT. ISOLDE Category 'Cores, interfaces, peripherals & NoCs'",
+    "Category": ["NoC"],
+    "IP_CARD_URL": ""
   },
   {
     "Project": "ISOLDE",
@@ -108,64 +115,69 @@
       "ID 2.2.03"
     ],
     "Partners": "UPV",
-    "Comment": "MIT",
-    "Category": "Cores, interfaces, peripherals & NoCs"
+    "Comment": "MIT. ISOLDE Category 'Cores, interfaces, peripherals & NoCs'",
+    "Category": ["On-Chip Debug System", "Tool", "Visualisation and Debugging" ],
+    "IP_CARD_URL": ""
   },
   {
     "Project": "ISOLDE",
     "Name": "AHB Crossbar",
     "URL": "",
-    "License": "TBD",
+    "License": "Others",
     "Status": "",
     "Description": "TBD",
     "WI": [
       "ID 2.2.04"
     ],
     "Partners": "IFX",
-    "Comment": "TBD",
-    "Category": "Cores, interfaces, peripherals & NoCs"
+    "Comment": "TBD. ISOLDE Category 'Cores, interfaces, peripherals & NoCs'",
+    "Category": ["Interface"],
+    "IP_CARD_URL": ""
   },
   {
     "Project": "ISOLDE",
     "Name": "AHB/APB Interrupt Controller",
     "URL": "",
-    "License": "TBD",
+    "License": "Others",
     "Status": "",
     "Description": "TBD",
     "WI": [
       "ID 2.2.05"
     ],
     "Partners": "IFX",
-    "Comment": "TBD",
-    "Category": "Cores, interfaces, peripherals & NoCs"
+    "Comment": "TBD. ISOLDE Category 'Cores, interfaces, peripherals & NoCs'",
+    "Category": ["Peripheral"],
+    "IP_CARD_URL": ""
   },
   {
     "Project": "ISOLDE",
     "Name": "AHB/APB Timer",
     "URL": "",
-    "License": "TBD",
+    "License": "Others",
     "Status": "",
     "Description": "TBD",
     "WI": [
       "ID 2.2.06"
     ],
     "Partners": "IFX",
-    "Comment": "TBD",
-    "Category": "Cores, interfaces, peripherals & NoCs"
+    "Comment": "TBD. ISOLDE Category 'Cores, interfaces, peripherals & NoCs'",
+    "Category": ["Peripheral"],
+    "IP_CARD_URL": ""
   },
   {
     "Project": "ISOLDE",
     "Name": "GRLIB IP library",
     "URL": "https://www.gaisler.com/getgrlib",
-    "License": "GPL",
+    "License": ["GPL-2.0-or-later","Proprietary"],
     "Status": "",
     "Description": "TBD",
     "WI": [
       "ID 2.2.07"
     ],
     "Partners": "GSL",
-    "Comment": "GPL",
-    "Category": "Cores, interfaces, peripherals & NoCs"
+    "Comment": "GPL. ISOLDE Category 'Cores, interfaces, peripherals & NoCs'",
+    "Category": ["Core", "Peripheral", "Interface"],
+    "IP_CARD_URL": ""
   },
   {
     "Project": "ISOLDE",
@@ -178,78 +190,84 @@
       "ID 2.2.08"
     ],
     "Partners": "FENTISS",
-    "Comment": "Proprietary",
-    "Category": "Cores, interfaces, peripherals & NoCs"
+    "Comment": "Proprietary. ISOLDE Category 'Cores, interfaces, peripherals & NoCs'",
+    "Category": ["Extension"],
+    "IP_CARD_URL": ""
   },
   {
     "Project": "ISOLDE",
     "Name": "Context-Aware CORE Extensions",
     "URL": "",
-    "License": "Solderpad",
+    "License": "SHL-2.1",
     "Status": "",
     "Description": "TBD",
     "WI": [
       "ID 2.3.01"
     ],
     "Partners": "TRT",
-    "Comment": "Solderpad",
-    "Category": "Cores, interfaces, peripherals & NoCs"
+    "Comment": "Solderpad. ISOLDE Category 'Cores, interfaces, peripherals & NoCs'",
+    "Category": ["Extension"],
+    "IP_CARD_URL": ""
   },
   {
     "Project": "ISOLDE",
     "Name": "Memory bank interface",
     "URL": "https://bitbucket.org/fnpub/isolde/",
-    "License": "Open Source",
+    "License": "Others",
     "Status": "",
     "Description": "TBD",
     "WI": [
       "ID 2.3.02"
     ],
     "Partners": "FotoNation",
-    "Comment": "Open Source",
-    "Category": "Cores, interfaces, peripherals & NoCs"
+    "Comment": "Open Source. ISOLDE Category 'Cores, interfaces, peripherals & NoCs'",
+    "Category": ["Peripheral", "Interface"],
+    "IP_CARD_URL": ""
   },
   {
     "Project": "ISOLDE",
     "Name": "Extension interface for NOEL-V",
     "URL": "",
-    "License": "GPL",
+    "License": ["GPL-2.0-or-later","Proprietary"],
     "Status": "",
     "Description": "TBD",
     "WI": [
       "ID 2.3.03"
     ],
     "Partners": "GSL",
-    "Comment": "GPL",
-    "Category": "Cores, interfaces, peripherals & NoCs"
+    "Comment": "GPL. ISOLDE Category 'Cores, interfaces, peripherals & NoCs'",
+    "Category": ["Extension", "Interface"],
+    "IP_CARD_URL": ""
   },
   {
     "Project": "ISOLDE",
     "Name": "Extension interface for CVA6",
     "URL": "",
-    "License": "Solderpad",
+    "License": "SHL-2.1",
     "Status": "",
     "Description": "TBD",
     "WI": [
       "ID 2.3.04"
     ],
     "Partners": "TDIS",
-    "Comment": "Solderpad",
-    "Category": "Cores, interfaces, peripherals & NoCs"
+    "Comment": "Solderpad. ISOLDE Category 'Cores, interfaces, peripherals & NoCs'",
+    "Category": ["Extension", "Interface"],
+    "IP_CARD_URL": ""
   },
   {
     "Project": "ISOLDE",
     "Name": "Interface between CVA6 and Vector accelerator",
-    "URL": "https://github.com/pulp-platform/ara (branch: mp/xif , commit: f06204b )",
-    "License": "Solderpad",
+    "URL": "https://github.com/pulp-platform/ara/tree/f06204b",
+    "License": "SHL-2.1",
     "Status": "Prototype. To be updated with the final release of CV-X-IF in CVA6",
     "Description": "Prototype of CV-X-IF between CVA6 and RVV 1.0 vector processor, used for evaluation",
     "WI": [
       "ID 2.3.05"
     ],
     "Partners": "ETHZ",
-    "Comment": "Solderpad",
-    "Category": "Cores, interfaces, peripherals & NoCs"
+    "Comment": "Solderpad. ISOLDE Category 'Cores, interfaces, peripherals & NoCs'",
+    "Category": ["Extension", "Interface"],
+    "IP_CARD_URL": ""
   },
   {
     "Project": "ISOLDE",
@@ -262,22 +280,24 @@
       "ID 2.4.01"
     ],
     "Partners": "FENTISS",
-    "Comment": "Proprietary",
-    "Category": "Cores, interfaces, peripherals & NoCs"
+    "Comment": "Proprietary. ISOLDE Category 'Cores, interfaces, peripherals & NoCs'",
+    "Category": ["Software"],
+    "IP_CARD_URL": ""
   },
   {
     "Project": "ISOLDE",
     "Name": "CVA6 multicore experiments and analysis",
     "URL": "",
-    "License": "TBD",
+    "License": "Others",
     "Status": "",
     "Description": "TBD",
     "WI": [
       "ID 2.4.02"
     ],
     "Partners": "SYSGO",
-    "Comment": "TBD",
-    "Category": "Cores, interfaces, peripherals & NoCs"
+    "Comment": "TBD. ISOLDE Category 'Cores, interfaces, peripherals & NoCs'",
+    "Category": ["Core", "Core Generator"],
+    "IP_CARD_URL": ""
   },
   {
     "Project": "ISOLDE",
@@ -290,22 +310,24 @@
       "ID 2.4.03"
     ],
     "Partners": "IFX",
-    "Comment": "Proprietary",
-    "Category": "Cores, interfaces, peripherals & NoCs"
+    "Comment": "Proprietary. ISOLDE Category 'Cores, interfaces, peripherals & NoCs'",
+    "Category": ["Software"],
+    "IP_CARD_URL": ""
   },
   {
     "Project": "ISOLDE",
     "Name": "NOEL-V software tools",
     "URL": "",
-    "License": "GPL",
+    "License": ["GPL-2.0-or-later","Proprietary"],
     "Status": "",
     "Description": "TBD",
     "WI": [
       "ID 2.4.04"
     ],
     "Partners": "GSL",
-    "Comment": "GPL",
-    "Category": "Cores, interfaces, peripherals & NoCs"
+    "Comment": "GPL. ISOLDE Category 'Cores, interfaces, peripherals & NoCs'",
+    "Category": ["Software", "Tools"],
+    "IP_CARD_URL": ""
   },
   {
     "Project": "ISOLDE",
@@ -313,27 +335,27 @@
     "URL": "https://github.com/bsc-loca/SafeTI/",
     "License": "MIT",
     "Status": "Released",
-    "Description": "Programmable traffic innjector that can be used for platform co-testing and offers a large variety of applications",
+    "Description": "Programmable traffic injector that can be used for platform co-testing and offers a large variety of applications",
     "WI": [
       "ID 3.1.01"
     ],
     "Partners": "BSC",
-    "Comment": "MIT",
-    "Category": "Accelerators and extensions"
+    "Comment": "MIT. ISOLDE Category 'Accelerators and extensions'",
+    "Category": ["Peripheral","On-Chip Debug System"]
   },
   {
     "Project": "ISOLDE",
     "Name": "IPs with integrated Context-Aware PMCs",
     "URL": "",
-    "License": "TBD",
+    "License": "Others",
     "Status": "",
     "Description": "TBD",
     "WI": [
       "ID 3.1.02"
     ],
     "Partners": "TRT",
-    "Comment": "TBD",
-    "Category": "Accelerators and extensions"
+    "Comment": "TBD. ISOLDE Category 'Accelerators and extensions'",
+    "Category": ["Peripherals"]
   },
   {
     "Project": "ISOLDE",
@@ -346,8 +368,8 @@
       "ID 3.1.01"
     ],
     "Partners": "NXP-AT",
-    "Comment": "",
-    "Category": "Accelerator, Extension"
+    "Comment": "ISOLDE Category 'Accelerators and extensions'",
+    "Category": ["Accelerator","Extension", "On-Chip Debug System"]
   },
   {
     "Project": "ISOLDE",
@@ -360,8 +382,8 @@
       "ID 3.1.02"
     ],
     "Partners": "NXP-AT",
-    "Comment": "",
-    "Category": "Extension"
+    "Comment": "ISOLDE Category 'Extension'",
+    "Category": ["On-Chip Debug System", "Peripheral"]
   },
   {
     "Project": "ISOLDE",
@@ -374,8 +396,8 @@
       "ID 3.1.03"
     ],
     "Partners": "NXP-AT",
-    "Comment": "",
-    "Category": "Extension"
+    "Comment": "ISOLDE Category 'Extension'",
+    "Category": ["Extension","Peripheral"]
   },
   {
     "Project": "ISOLDE",
@@ -388,8 +410,8 @@
       "ID 3.1.04"
     ],
     "Partners": "NXP-AT",
-    "Comment": "",
-    "Category": "Extension"
+    "Comment": "ISOLDE Category 'Extension'",
+    "Category": ["Extension","Peripheral"]
   },
   {
     "Project": "ISOLDE",
@@ -402,8 +424,8 @@
       "ID 3.1.05"
     ],
     "Partners": "NXP-AT",
-    "Comment": "",
-    "Category": "Extension"
+    "Comment": "ISOLDE Category 'Extension'",
+    "Category": ["Extension","Peripheral"]
   },  
   {
     "Project": "ISOLDE",
@@ -416,22 +438,22 @@
       "ID 3.1.08"
     ],
     "Partners": "HM",
-    "Comment": "MIT",
-    "Category": "Accelerators and extensions"
+    "Comment": "MIT. ISOLDE Category 'Accelerators and extensions'",
+    "Category": ["Accelerator","Extension"]
   },
   {
     "Project": "ISOLDE",
     "Name": "Root-of-Trust Unit Design and Interface with RISC-V Host Processor (TitanCFI)",
     "URL": "https://github.com/pulp-platform/opentitan",
-    "License": "Solderpad",
+    "License": "SHL-2.1",
     "Status": "",
     "Description": "TBD",
     "WI": [
       "ID 3.1.10"
     ],
     "Partners": "UNIBO",
-    "Comment": "Solderpad",
-    "Category": "Accelerators and extensions"
+    "Comment": "Solderpad. ISOLDE Category 'Accelerators and extensions'",
+    "Category": ["Accelerator","Extension", "Peripheral"]
   },
   {
     "Project": "ISOLDE",
@@ -444,78 +466,78 @@
       "ID 3.1.11"
     ],
     "Partners": "FENTISS",
-    "Comment": "Proprietary",
-    "Category": "Accelerators and extensions"
+    "Comment": "Proprietary. ISOLDE Category 'Accelerators and extensions'",
+    "Category": ["Accelerator","Extension"]
   },
   {
     "Project": "ISOLDE",
     "Name": "Safety Control",
     "URL": "",
-    "License": "TBD",
+    "License": "Others",
     "Status": "",
     "Description": "TBD",
     "WI": [
       "ID 3.1.12"
     ],
     "Partners": "IFX",
-    "Comment": "TBD",
-    "Category": "Accelerators and extensions"
+    "Comment": "TBD. ISOLDE Category 'Accelerators and extensions'",
+    "Category": ["Accelerator","Extension"]
   },
   {
     "Project": "ISOLDE",
     "Name": "High-Performance Cache Analysis",
     "URL": "",
-    "License": "",
+    "License": "Others",
     "Status": "",
     "Description": "TBD",
     "WI": [
       "ID 3.1.13"
     ],
     "Partners": "SYSGO",
-    "Comment": "",
-    "Category": "Accelerators and extensions"
+    "Comment": "ISOLDE Category 'Accelerators and extensions'",
+    "Category": ["Accelerator","Extension"]
   },
   {
     "Project": "ISOLDE",
     "Name": "Floating-Point Unit (FPU) for RISC-V",
     "URL": "",
-    "License": "Open Source",
+    "License": "Others",
     "Status": "",
     "Description": "TBD",
     "WI": [
       "ID 3.2.01"
     ],
     "Partners": "UZL",
-    "Comment": "Open Source",
-    "Category": "Accelerators and extensions"
+    "Comment": "Open Source. ISOLDE Category 'Accelerators and extensions'",
+    "Category": ["Accelerator","Extension"]
   },
   {
     "Project": "ISOLDE",
     "Name": "FPU for mixed-precision computing",
     "URL": "",
-    "License": "Multiple",
+    "License": "Others",
     "Status": "",
     "Description": "TBD",
     "WI": [
       "ID 3.2.02"
     ],
     "Partners": "POLIMI",
-    "Comment": "Multiple",
-    "Category": "Accelerators and extensions"
+    "Comment": "Multiple. ISOLDE Category 'Accelerators and extensions'",
+    "Category": ["Accelerator","Extension"]
   },
   {
     "Project": "ISOLDE",
     "Name": "Scratchpad Memory",
     "URL": "https://gitlab.com/catalin.ciobanu/PolyMem_System_Verilog/-/tree/refactoring?ref_type=heads",
-    "License": "GPL v3.0",
+    "License": "GPL-3.0",
     "Status": "Optimization",
     "Description": "Polymorphic memory designed to store matrices.",
     "WI": [
       "ID 3.2.03"
     ],
     "Partners": "IMT",
-    "Comment": "GPL v3.0",
-    "Category": "Accelerators and extensions"
+    "Comment": "GPL v3.0. ISOLDE Category 'Accelerators and extensions'",
+    "Category": ["Accelerator","Extension","Peripheral"]
   },
   {
     "Project": "ISOLDE",
@@ -528,36 +550,36 @@
       "ID 3.3.01"
     ],
     "Partners": "BSC",
-    "Comment": "",
-    "Category": "Accelerators and extensions"
+    "Comment": "ISOLDE Category 'Accelerators and extensions'",
+    "Category": ["Accelerator","Extension", "On-Chip Debug System"]
   },
   {
     "Project": "ISOLDE",
     "Name": "Time Contract Monitoring Co-Processor (TCCP)",
     "URL": "https://github.com/offis/isolde-tccp",
-    "License": "Apache V2.0",
+    "License": "Apache-2.0",
     "Status": "Work in progress",
     "Description": "The Time Contract Co-Processor (TCCP), a reconfigurable open-source co-processor for RISC-V systems.",
     "WI": [
       "ID 3.3.02"
     ],
     "Partners": "OFFIS",
-    "Comment": "",
-    "Category": "Accelerators and extensions"
+    "Comment": ". ISOLDE Category 'Accelerators and extensions'",
+    "Category": ["Accelerator","Extension", "On-Chip Debug System"]
   },
   {
     "Project": "ISOLDE",
     "Name": "Context-Aware PMC Interface (CA-PMC-IF)",
     "URL": "",
-    "License": "TBD",
+    "License": "Others",
     "Status": "",
     "Description": "TBD",
     "WI": [
       "ID 3.3.03"
     ],
     "Partners": "TRT",
-    "Comment": "TBD",
-    "Category": "Accelerators and extensions"
+    "Comment": "TBD. ISOLDE Category 'Accelerators and extensions'",
+    "Category": ["Extension", "Interface"]
   },
   {
     "Project": "ISOLDE",
@@ -570,36 +592,36 @@
       "ID 3.3.04"
     ],
     "Partners": "POLIMI",
-    "Comment": "Proprietary",
-    "Category": "Accelerators and extensions"
+    "Comment": "Proprietary. ISOLDE Category 'Accelerators and extensions'",
+    "Category": ["Peripheral", "On-Chip Debug System"]
   },
   {
     "Project": "ISOLDE",
     "Name": "Tensor Processing Unit (TPU)",
     "URL": "https://github.com/pulp-platform/redmule",
-    "License": "Solderpad",
+    "License": "SHL-2.1",
     "Status": "",
     "Description": "TBD",
     "WI": [
       "ID 3.4.01"
     ],
     "Partners": "UNIBO",
-    "Comment": "Solderpad",
-    "Category": "Accelerators and extensions"
+    "Comment": "Solderpad. ISOLDE Category 'Accelerators and extensions'",
+    "Category": ["Accelerator","Extension"]
   },
   {
     "Project": "ISOLDE",
     "Name": "Parallel Computing Accelerator (PCA)",
     "URL": "",
-    "License": "Solderpad",
+    "License": "SHL-2.1",
     "Status": "",
     "Description": "TBD",
     "WI": [
       "ID 3.4.02"
     ],
     "Partners": "POLITO",
-    "Comment": "Solderpad",
-    "Category": "Accelerators and extensions"
+    "Comment": "Solderpad. ISOLDE Category 'Accelerators and extensions'",
+    "Category": ["Accelerator","Extension"]
   },
   {
     "Project": "ISOLDE",
@@ -612,22 +634,22 @@
       "ID 3.4.03"
     ],
     "Partners": "FotoNation",
-    "Comment": "Proprietary",
-    "Category": "Accelerators and extensions"
+    "Comment": "Proprietary. ISOLDE Category 'Accelerators and extensions'",
+    "Category": ["Accelerator","Extension", "AI"]
   },
   {
     "Project": "ISOLDE",
     "Name": "Vector Processing Unit (with multi-precision capabilities) (VPU)",
     "URL": "https://github.com/pulp-platform/ara",
-    "License": "Solderpad",
+    "License": "SHL-2.1",
     "Status": "Optimization, verification, and feature addition in progress",
     "Description": "RISC-V V 1.0 modular vector accelerator with multi-precision capabilities",
     "WI": [
       "ID 3.4.04"
     ],
     "Partners": "ETHZ",
-    "Comment": "Solderpad",
-    "Category": "Accelerators and extensions"
+    "Comment": "Solderpad. ISOLDE Category 'Accelerators and extensions'",
+    "Category": ["Accelerator","Extension"]
   },
   {
     "Project": "ISOLDE",
@@ -640,50 +662,50 @@
       "ID 3.4.05"
     ],
     "Partners": "SAL",
-    "Comment": "Proprietary",
-    "Category": "Accelerators and extensions"
+    "Comment": "Proprietary. ISOLDE Category 'Accelerators and extensions'",
+    "Category": ["Accelerator","Extension"]
   },
   {
     "Project": "ISOLDE",
     "Name": "SIMD/Vector Accelerator",
     "URL": "https://github.com/alex2kameboss/MatrixAccelerator",
-    "License": "GPL v3.0",
+    "License": "GPL-3.0",
     "Status": "FPGA implementation",
     "Description": "This accelerator extends the RISC-V ISA for matrix operations. This accelerator is tightly coupled with the RISC-V core via CV-X-IF.",
     "WI": [
       "ID 3.4.06"
     ],
     "Partners": "IMT",
-    "Comment": "GPL v3.0",
-    "Category": "Accelerators and extensions"
+    "Comment": "GPL v3.0. ISOLDE Category 'Accelerators and extensions'",
+    "Category": ["Accelerator","Extension"]
   },
   {
     "Project": "ISOLDE",
     "Name": "Extension Platform (EXP)",
     "URL": "",
-    "License": "Solderpad",
+    "License": "SHL-2.1",
     "Status": "",
     "Description": "TBD",
     "WI": [
       "ID 3.4.07"
     ],
     "Partners": "TUI",
-    "Comment": "TBD",
-    "Category": "Accelerators and extensions"
+    "Comment": "TBD. ISOLDE Category 'Accelerators and extensions'",
+    "Category": ["Accelerator","Extension"]
   },
   {
     "Project": "ISOLDE",
     "Name": "HLS-based Post-Quantum Cryptographic Accelerator (HLS-PQC)",
     "URL": "https://github.com/bsc-loca/PQC-Crystals-HLS-Accelerators",
-    "License": "Solderpad",
+    "License": "SHL-2.1",
     "Status": "Released",
     "Description": "Implements a PQC accelerator for FPGA-based SoCs using HLS. It supports CRYSTALS-Kyber (ML-KEM) and CRYSTALS-Dilithium (ML-DSA). Both schemes are NIST standards for post-quantum cryptography.",
     "WI": [
       "ID 3.5.01"
     ],
     "Partners": "BSC",
-    "Comment": "Solderpad",
-    "Category": "Accelerators and extensions"
+    "Comment": "Solderpad. ISOLDE Category 'Accelerators and extensions'",
+    "Category": ["Accelerator","Extension"]
   },
   {
     "Project": "ISOLDE",
@@ -696,8 +718,8 @@
       "ID 3.5.02"
     ],
     "Partners": "SAL",
-    "Comment": "Proprietary",
-    "Category": "Accelerators and extensions"
+    "Comment": "Proprietary. ISOLDE Category 'Accelerators and extensions'",
+    "Category": ["Accelerator","Extension"]
   },
   {
     "Project": "ISOLDE",
@@ -710,36 +732,36 @@
       "ID 3.5.03"
     ],
     "Partners": "POLIMI",
-    "Comment": "Proprietary",
-    "Category": "Accelerators and extensions"
+    "Comment": "Proprietary. ISOLDE Category 'Accelerators and extensions'",
+    "Category": ["Accelerator","Extension"]
   },
   {
     "Project": "ISOLDE",
     "Name": "Number Theoretic Transform Algorithms for Post Quantum Cryptography (NTT)",
     "URL": "",
-    "License": "GPL v3.0",
+    "License": "GPL-3.0",
     "Status": "",
     "Description": "TBD",
     "WI": [
       "ID 3.5.04"
     ],
     "Partners": "IMT",
-    "Comment": "GPL v3.0",
-    "Category": "Accelerators and extensions"
+    "Comment": "GPL v3.0. ISOLDE Category 'Accelerators and extensions'",
+    "Category": ["Accelerator","Extension"]
   },
   {
     "Project": "ISOLDE",
     "Name": "Secured RISC-V Processor with Cryptographic Accelerators (SEC)",
     "URL": "",
-    "License": "GPL v3.0",
+    "License": "GPL-3.0",
     "Status": "",
     "Description": "TBD",
     "WI": [
       "ID 3.5.05"
     ],
     "Partners": "BEIA",
-    "Comment": "GPL v3.0",
-    "Category": "Accelerators and extensions"
+    "Comment": "GPL v3.0. ISOLDE Category 'Accelerators and extensions'",
+    "Category": ["Core","Accelerator","Extension"]
   },
   {
     "Project": "ISOLDE",
@@ -756,8 +778,8 @@
       "BUT",
       "NXP-CZ"
     ],
-    "Comment": "Proprietary",
-    "Category": "Accelerators and extensions"
+    "Comment": "Proprietary. ISOLDE Category 'Accelerators and extensions'",
+    "Category": ["Accelerator","Extension"]
   },
   {
     "Project": "ISOLDE",
@@ -770,8 +792,8 @@
       "ID 3.6.02"
     ],
     "Partners": "ACP",
-    "Comment": "Proprietary",
-    "Category": "Accelerators and extensions"
+    "Comment": "Proprietary. ISOLDE Category 'Accelerators and extensions'",
+    "Category": ["Accelerator","Extension"]
   },
   {
     "Project": "ISOLDE",
@@ -784,84 +806,84 @@
       "ID 3.6.03"
     ],
     "Partners": "ACP",
-    "Comment": "Proprietary",
-    "Category": "Accelerators and extensions"
+    "Comment": "Proprietary. ISOLDE Category 'Accelerators and extensions'",
+    "Category": ["Accelerator","Extension"]
   },
   {
     "Project": "ISOLDE",
     "Name": "Neuromorphic HW Accelerator",
     "URL": "",
-    "License": "Solderpad",
+    "License": "SHL-2.1",
     "Status": "",
     "Description": "TBD",
     "WI": [
       "ID 3.6.04"
     ],
     "Partners": "POLITO",
-    "Comment": "Solderpad",
-    "Category": "Accelerators and extensions"
+    "Comment": "Solderpad. ISOLDE Category 'Accelerators and extensions'",
+    "Category": ["Accelerator","Extension"]
   },
   {
     "Project": "ISOLDE",
     "Name": "Fast Fourier Transform Algorithms for SIMD and Vector Accelerators (FFT)",
     "URL": "",
-    "License": "GPL v3.0",
+    "License": "GPL-3.0",
     "Status": "",
     "Description": "TBD",
     "WI": [
       "ID 3.6.05"
     ],
     "Partners": "IMT",
-    "Comment": "GPL v3.0",
-    "Category": "Accelerators and extensions"
+    "Comment": "GPL v3.0. ISOLDE Category 'Accelerators and extensions'",
+    "Category": ["Accelerator","Extension"]
   },
   {
     "Project": "ISOLDE",
     "Name": "Neural Network Drivers",
     "URL": "",
-    "License": "Apache V2.0",
+    "License": "Apache-2.0",
     "Status": "",
     "Description": "TBD",
     "WI": [
       "ID 4.1.01"
     ],
     "Partners": "POLITO",
-    "Comment": "Apache V2.0",
-    "Category": "Operating systems and applications SW"
+    "Comment": "Apache V2.0. ISOLDE Category 'Operating systems and applications SW'",
+    "Category": ["Software"]
   },
   {
     "Project": "ISOLDE",
     "Name": "AI/ML Accelerator driver",
     "URL": "https://bitbucket.org/fnpub/isolde/",
-    "License": "Multiple",
+    "License": "Apache-2.0",
     "Status": "",
     "Description": "TBD",
     "WI": [
       "ID 4.1.02"
     ],
     "Partners": "FotoNation",
-    "Comment": "Multiple",
-    "Category": "Operating systems and applications SW"
+    "Comment": "Multiple. ISOLDE Category 'Operating systems and applications SW'",
+    "Category": ["Operating System","Software"]
   },
   {
     "Project": "ISOLDE",
     "Name": "Optimization of WebAssembly Interpreter",
     "URL": "",
-    "License": "Apache V2.0",
+    "License": "Apache-2.0",
     "Status": "",
     "Description": "TBD",
     "WI": [
       "ID 4.1.03"
     ],
     "Partners": "HM",
-    "Comment": "Apache V2.0",
-    "Category": "Operating systems and applications SW"
+    "Comment": "Apache V2.0. ISOLDE Category 'Operating systems and applications SW'",
+    "Category": ["Software"]
   },
   {
     "Project": "ISOLDE",
     "Name": "Use of device tree abstraction for Linux on RISC-V",
     "URL": "",
-    "License": "Open Source",
+    "License": "Others",
     "Status": "",
     "Description": "TBD",
     "WI": [
@@ -871,8 +893,8 @@
       "CONS",
       "SYSGO"
     ],
-    "Comment": "Open Source",
-    "Category": "Operating systems and applications SW"
+    "Comment": "Open Source. ISOLDE Category 'Operating systems and applications SW'",
+    "Category": ["Operating System","Software"]
   },
   {
     "Project": "ISOLDE",
@@ -885,22 +907,22 @@
       "ID 4.1.06"
     ],
     "Partners": "TASI",
-    "Comment": "Proprietary",
-    "Category": "Operating systems and applications SW"
+    "Comment": "Proprietary. ISOLDE Category 'Operating systems and applications SW'",
+    "Category": ["Software"]
   },
   {
     "Project": "ISOLDE",
     "Name": "Run-Time Environment for end-users",
     "URL": "",
-    "License": "Multiple",
+    "License": "Others",
     "Status": "",
     "Description": "TBD",
     "WI": [
       "ID 4.1.07"
     ],
     "Partners": "UPB",
-    "Comment": "Multiple",
-    "Category": "Operating systems and applications SW"
+    "Comment": "Multiple. ISOLDE Category 'Operating systems and applications SW'",
+    "Category": ["Software"]
   },
   {
     "Project": "ISOLDE",
@@ -913,12 +935,12 @@
       "ID 4.1.08"
     ],
     "Partners": "SYSGO",
-    "Comment": "Proprietary",
-    "Category": "Operating systems and applications SW"
+    "Comment": "Proprietary. ISOLDE Category 'Operating systems and applications SW'",
+    "Category": ["Operating System","Software"]
   },
   {
     "Project": "ISOLDE",
-    "Name": "XNG BSP to CVA-6 processor core",
+    "Name": "XNG BSP to CVA6 processor core",
     "URL": "",
     "License": "Proprietary",
     "Status": "",
@@ -927,78 +949,78 @@
       "ID 4.1.09"
     ],
     "Partners": "FENTISS",
-    "Comment": "Proprietary",
-    "Category": "Operating systems and applications SW"
+    "Comment": "Proprietary. ISOLDE Category 'Operating systems and applications SW'",
+    "Category": ["Operating System","Software"]
   },
   {
     "Project": "ISOLDE",
     "Name": "Development of System Software",
     "URL": "",
-    "License": "Open Source",
+    "License": "Others",
     "Status": "",
     "Description": "TBD",
     "WI": [
       "ID 4.1.10"
     ],
     "Partners": "TUI",
-    "Comment": "Open Source",
-    "Category": "Operating systems and applications SW"
+    "Comment": "Open Source. ISOLDE Category 'Operating systems and applications SW'",
+    "Category": ["Operating System","Software"]
   },
   {
     "Project": "ISOLDE",
     "Name": "Lauterbach support for CVA6 (instructions how to use Lauterbach on CVA6)",
     "URL": "https://www.sysgo.com/blog/article/interfacing-multi-core-cva6-on-the-risc-v-culsans-platform-with-lauterbach",
-    "License": "Public domain (CC0) for the Vivado/Lauterbach debugger configuration code contained therein.",
+    "License": "CC0-1.0",
     "Status": "Done and instructions shared.",
     "Description": "Instructions on using Lauterbach on a multicore System-on-Chip (SoC) platform—Culsans—featuring two CVA6 RISC-V cores. This SoC is deployed on a Genesys2 development board, and a key focus of our effort has been enabling efficient debugging capabilities with Lauterbach's TRACE32, an industry-standard debugging suite.",
     "WI": [
       "ID 4.1.11"
     ],
     "Partners": "SYSGO",
-    "Comment": "Public domain (CC0) for the Vivado/Lauterbach debugger configuration code contained therein.",
-    "Category": "Operating systems and applications SW"
+    "Comment": "Public domain (CC0) for the Vivado/Lauterbach debugger configuration code contained therein.. ISOLDE Category 'Operating systems and applications SW'",
+    "Category": ["Operating System","Software"]
   },
   {
     "Project": "ISOLDE",
     "Name": "Toolchain for Hardware-aware Neural Network Optimization",
     "URL": "",
-    "License": "Apache V2.0",
+    "License": "Apache-2.0",
     "Status": "",
     "Description": "TBD",
     "WI": [
       "ID 4.2.01"
     ],
     "Partners": "POLITO",
-    "Comment": "Apache V2.0",
-    "Category": "Operating systems and applications SW"
+    "Comment": "Apache V2.0. ISOLDE Category 'Operating systems and applications SW'",
+    "Category": ["Operating System","Software"]
   },
   {
     "Project": "ISOLDE",
     "Name": "RF-SP: Resource-efficient IoT data processing and analytics",
     "URL": "",
-    "License": "Apache V2.0",
+    "License": "Apache-2.0",
     "Status": "",
     "Description": "TBD",
     "WI": [
       "ID 4.2.02"
     ],
     "Partners": "BYK",
-    "Comment": "Apache V2.0",
-    "Category": "Operating systems and applications SW"
+    "Comment": "Apache V2.0. ISOLDE Category 'Operating systems and applications SW'",
+    "Category": ["Operating System","Software"]
   },
   {
     "Project": "ISOLDE",
     "Name": "Model-based generation framework for hardware safety pattern",
     "URL": "",
-    "License": "TBD",
+    "License": "Others",
     "Status": "",
     "Description": "TBD",
     "WI": [
       "ID 4.2.03"
     ],
     "Partners": "FZI",
-    "Comment": "TBD",
-    "Category": "Operating systems and applications SW"
+    "Comment": "TBD. ISOLDE Category 'Operating systems and applications SW'",
+    "Category": ["Software"]
   },
   {
     "Project": "ISOLDE",
@@ -1011,8 +1033,8 @@
       "ID 4.2.04"
     ],
     "Partners": "POLIMI",
-    "Comment": "MIT",
-    "Category": "Operating systems and applications SW"
+    "Comment": "MIT. ISOLDE Category 'Operating systems and applications SW'",
+    "Category": ["Software"]
   },
   {
     "Project": "ISOLDE",
@@ -1025,64 +1047,64 @@
       "ID 4.2.05"
     ],
     "Partners": "FotoNation",
-    "Comment": "Proprietary",
-    "Category": "Operating systems and applications SW"
+    "Comment": "Proprietary. ISOLDE Category 'Operating systems and applications SW'",
+    "Category": ["Software"]
   },
   {
     "Project": "ISOLDE",
     "Name": "TPU HAL",
     "URL": "",
-    "License": "Apache V2.0",
+    "License": "Apache-2.0",
     "Status": "",
     "Description": "TBD",
     "WI": [
       "ID 4.2.06"
     ],
     "Partners": "UNIBO",
-    "Comment": "Apache V2.0",
-    "Category": "Operating systems and applications SW"
+    "Comment": "Apache V2.0. ISOLDE Category 'Operating systems and applications SW'",
+    "Category": ["Operating System","Software"]
   },
   {
     "Project": "ISOLDE",
     "Name": "HAL for RoT unit as a secure-coprocessor",
     "URL": "",
-    "License": "Apache V2.0",
+    "License": "Apache-2.0",
     "Status": "",
     "Description": "TBD",
     "WI": [
       "ID 4.2.07"
     ],
     "Partners": "UNIBO",
-    "Comment": "Apache V2.0",
-    "Category": "Operating systems and applications SW"
+    "Comment": "Apache V2.0. ISOLDE Category 'Operating systems and applications SW'",
+    "Category": ["Operating System","Software"]
   },
   {
     "Project": "ISOLDE",
     "Name": "CFI software algorithm in OT firmware",
     "URL": "",
-    "License": "Apache V2.0",
+    "License": "Apache-2.0",
     "Status": "",
     "Description": "TBD",
     "WI": [
       "ID 4.2.08"
     ],
     "Partners": "UNIBO",
-    "Comment": "Apache V2.0",
-    "Category": "Operating systems and applications SW"
+    "Comment": "Apache V2.0. ISOLDE Category 'Operating systems and applications SW'",
+    "Category": ["Operating System","Software"]
   },
   {
     "Project": "ISOLDE",
     "Name": "OT-based secure boot support (TitanBoot)",
     "URL": "",
-    "License": "Apache V2.0",
+    "License": "Apache-2.0",
     "Status": "",
     "Description": "TBD",
     "WI": [
       "ID 4.2.09"
     ],
     "Partners": "UNIBO",
-    "Comment": "Apache V2.0",
-    "Category": "Operating systems and applications SW"
+    "Comment": "Apache V2.0. ISOLDE Category 'Operating systems and applications SW'",
+    "Category": ["Operating System","Software"]
   },
   {
     "Project": "ISOLDE",
@@ -1095,8 +1117,8 @@
       "ID 4.2.10"
     ],
     "Partners": "NXP-RO",
-    "Comment": "Proprietary",
-    "Category": "Operating systems and applications SW"
+    "Comment": "Proprietary. ISOLDE Category 'Operating systems and applications SW'",
+    "Category": ["Operating System","Software"]
   },
   {
     "Project": "ISOLDE",
@@ -1109,8 +1131,8 @@
       "ID 4.2.11"
     ],
     "Partners": "NXP-AT",
-    "Comment": "Proprietary",
-    "Category": "Operating systems and applications SW"
+    "Comment": "Proprietary. ISOLDE Category 'Operating systems and applications SW'",
+    "Category": ["Software"]
   },
   {
     "Project": "ISOLDE",
@@ -1123,8 +1145,8 @@
       "ID 4.2.12"
     ],
     "Partners": "NXP-AT",
-    "Comment": "Proprietary",
-    "Category": "Operating systems and applications SW"
+    "Comment": "Proprietary. ISOLDE Category 'Operating systems and applications SW'",
+    "Category": ["Software"]
   },
   {
     "Project": "ISOLDE",
@@ -1137,8 +1159,8 @@
       "ID 4.2.13"
     ],
     "Partners": "NXP-AT",
-    "Comment": "Proprietary",
-    "Category": "Operating systems and applications SW"
+    "Comment": "Proprietary. ISOLDE Category 'Operating systems and applications SW'",
+    "Category": ["Software"]
   },
   {
     "Project": "ISOLDE",
@@ -1151,36 +1173,36 @@
       "ID 4.2.14"
     ],
     "Partners": "NXP-AT",
-    "Comment": "Proprietary",
-    "Category": "Operating systems and applications SW"
+    "Comment": "Proprietary. ISOLDE Category 'Operating systems and applications SW'",
+    "Category": ["Software"]
   },
   {
     "Project": "ISOLDE",
     "Name": "LLVM/MLIR extensions for PQC and CNN accelerators by SAL",
     "URL": "",
-    "License": "Multiple",
+    "License": "Others",
     "Status": "",
     "Description": "TBD",
     "WI": [
       "ID 4.2.15"
     ],
     "Partners": "SAL",
-    "Comment": "Multiple",
-    "Category": "Operating systems and applications SW"
+    "Comment": "Multiple. ISOLDE Category 'Operating systems and applications SW'",
+    "Category": ["Software"]
   },
   {
     "Project": "ISOLDE",
     "Name": "Intel Shuttle Program",
     "URL": "",
-    "License": "",
+    "License": "Others",
     "Status": "",
     "Description": "TBD",
     "WI": [
       "ID 4.2.16"
     ],
     "Partners": "INTEL",
-    "Comment": "",
-    "Category": "Operating systems and applications SW"
+    "Comment": ". ISOLDE Category 'Operating systems and applications SW'",
+    "Category": ["Operating System","Software"]
   },
   {
     "Project": "ISOLDE",
@@ -1193,8 +1215,8 @@
       "ID 4.2.17"
     ],
     "Partners": "IMT",
-    "Comment": "",
-    "Category": "Operating systems and applications SW"
+    "Comment": ". ISOLDE Category 'Operating systems and applications SW'",
+    "Category": ["Operating System","Software"]
   },
   {
     "Project": "ISOLDE",
@@ -1207,64 +1229,64 @@
       "ID 4.2.18"
     ],
     "Partners": "NXP-CZ",
-    "Comment": "Proprietary",
-    "Category": "Operating systems and applications SW"
+    "Comment": "Proprietary. ISOLDE Category 'Operating systems and applications SW'",
+    "Category": ["Software"]
   },
   {
     "Project": "ISOLDE",
     "Name": "Basic toolchain for the many-core parallel accelerator",
     "URL": "",
-    "License": "Multiple",
+    "License": "Others",
     "Status": "",
     "Description": "TBD",
     "WI": [
       "ID 4.2.19"
     ],
     "Partners": "UPB",
-    "Comment": "Multiple",
-    "Category": "Operating systems and applications SW"
+    "Comment": "Multiple. ISOLDE Category 'Operating systems and applications SW'",
+    "Category": ["Software"]
   },
   {
     "Project": "ISOLDE",
     "Name": "Integrate system level simulators with extra-functional properties",
     "URL": "",
-    "License": "Apache V2.0",
+    "License": "Apache-2.0",
     "Status": "",
     "Description": "TBD",
     "WI": [
       "ID 4.3.01"
     ],
     "Partners": "POLITO",
-    "Comment": "Apache V2.0",
-    "Category": "Operating systems and applications SW"
+    "Comment": "Apache V2.0. ISOLDE Category 'Operating systems and applications SW'",
+    "Category": ["Software"]
   },
   {
     "Project": "ISOLDE",
     "Name": "Time Contract Co-processor Compiler (TCCP-CO)",
     "URL": "https://github.com/offis/isolde-tccp",
-    "License": "Apache V2.0",
+    "License": "Apache-2.0",
     "Status": "Work in progress",
     "Description": "The Time Contract Co-Processor (TCCP) Compiler, a compiler providing the TCCP with a micro program for monitoring, based on contracts and software artifacts.",
     "WI": [
       "ID 4.3.02"
     ],
     "Partners": "OFFIS",
-    "Comment": "",
-    "Category": "Operating systems and applications SW"
+    "Comment": ". ISOLDE Category 'Operating systems and applications SW'",
+    "Category": ["Software"]
   },
   {
     "Project": "ISOLDE",
     "Name": "Power/Performance Modeling for Design Space Exploration PPM-DSE",
     "URL": "",
-    "License": "",
+    "License": "Others",
     "Status": "",
     "Description": "TBD",
     "WI": [
       "ID 4.3.03"
     ],
     "Partners": "SILVACO",
-    "Comment": "",
-    "Category": "Operating systems and applications SW"
+    "Comment": ". ISOLDE Category 'Operating systems and applications SW'",
+    "Category": ["Software"]
   },
   {
     "Project": "ISOLDE",
@@ -1277,22 +1299,22 @@
       "ID 4.3.04"
     ],
     "Partners": "UPV",
-    "Comment": "MIT",
-    "Category": "Operating systems and applications SW"
+    "Comment": "MIT. ISOLDE Category 'Operating systems and applications SW'",
+    "Category": ["Software","Tool"]
   },
   {
     "Project": "ISOLDE",
     "Name": "Simulation-based HW/SW co-verification approach",
     "URL": "",
-    "License": "TBD",
+    "License": "Others",
     "Status": "",
     "Description": "TBD",
     "WI": [
       "ID 4.3.05"
     ],
     "Partners": "FZI",
-    "Comment": "TBD",
-    "Category": "Operating systems and applications SW"
+    "Comment": "TBD. ISOLDE Category 'Operating systems and applications SW'",
+    "Category": ["Software","Tool"]
   },
   {
     "Project": "ISOLDE",
@@ -1305,28 +1327,28 @@
       "ID 4.3.06"
     ],
     "Partners": "FotoNation",
-    "Comment": "Proprietary",
-    "Category": "Operating systems and applications SW"
+    "Comment": "Proprietary. ISOLDE Category 'Operating systems and applications SW'",
+    "Category": ["Software","Tool"]
   },
   {
     "Project": "ISOLDE",
     "Name": "Verilator-based Fault-Injection Framework",
     "URL": "",
-    "License": "LGPL 3.0, Apache V2.0",
+    "License": ["LGPL-3.0","Apache-2.0"],
     "Status": "",
     "Description": "TBD",
     "WI": [
       "ID 4.3.07"
     ],
     "Partners": "HM",
-    "Comment": "LGPL 3.0, Apache V2.0",
-    "Category": "Operating systems and applications SW"
+    "Comment": "LGPL 3.0, Apache V2.0. ISOLDE Category 'Operating systems and applications SW'",
+    "Category": ["Software","Tool"]
   },
   {
     "Project": "ISOLDE",
     "Name": "Open-Source Verification Flow for High Performance Cores, Accelerators and Demonstrators",
     "URL": "",
-    "License": "Open Source",
+    "License": "Others",
     "Status": "",
     "Description": "TBD",
     "WI": [
@@ -1336,8 +1358,8 @@
       "IFX",
       "HM"
     ],
-    "Comment": "Open Source",
-    "Category": "Operating systems and applications SW"
+    "Comment": "Open Source. ISOLDE Category 'Operating systems and applications SW'",
+    "Category": ["Operating System","Software"]
   },
   {
     "Project": "ISOLDE",
@@ -1350,8 +1372,8 @@
       "ID 4.3.09"
     ],
     "Partners": "RAPITA",
-    "Comment": "Proprietary",
-    "Category": "Operating systems and applications SW"
+    "Comment": "Proprietary. ISOLDE Category 'Operating systems and applications SW'",
+    "Category": ["Software","Tool"]
   },
   {
     "Project": "ISOLDE",
@@ -1364,22 +1386,22 @@
       "ID 4.3.10"
     ],
     "Partners": [],
-    "Comment": "Proprietary",
-    "Category": "Operating systems and applications SW"
+    "Comment": "Proprietary. ISOLDE Category 'Operating systems and applications SW'",
+    "Category": ["Software","Tool"]
   },
   {
     "Project": "ISOLDE",
     "Name": "Fault-Injection-Analysis of FPU Unit",
     "URL": "",
-    "License": "Open Source",
+    "License": "Others",
     "Status": "",
     "Description": "TBD",
     "WI": [
       "ID 4.3.11"
     ],
     "Partners": "UZL",
-    "Comment": "Open Source",
-    "Category": "Operating systems and applications SW"
+    "Comment": "Open Source. ISOLDE Category 'Operating systems and applications SW'",
+    "Category": ["Operating System","Software"]
   },
   {
     "Project": "ISOLDE",
@@ -1392,8 +1414,8 @@
       "ID 4.3.12"
     ],
     "Partners": "FENTISS",
-    "Comment": "Proprietary",
-    "Category": "Operating systems and applications SW"
+    "Comment": "Proprietary. ISOLDE Category 'Operating systems and applications SW'",
+    "Category": ["Operating System","Software"]
   },
   {
     "Project": "ISOLDE",
@@ -1406,7 +1428,7 @@
       "ID 4.3.13"
     ],
     "Partners": "FENTISS",
-    "Comment": "Proprietary",
-    "Category": "Operating systems and applications SW"
+    "Comment": "Proprietary. ISOLDE Category 'Operating systems and applications SW'",
+    "Category": ["Operating System","Software"]
   }
 ]

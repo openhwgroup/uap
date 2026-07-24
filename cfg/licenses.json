@@ -4,6 +4,10 @@
     "licenseId": "0BSD"
   },
   {
+    "name": "389 Directory Server Exception",
+    "licenseId": "389-exception"
+  },
+  {
     "name": "3D Slicer License v1.0",
     "licenseId": "3D-Slicer-1.0"
   },
@@ -204,6 +208,34 @@
     "licenseId": "Aspell-RU"
   },
   {
+    "name": "Asterisk exception",
+    "licenseId": "Asterisk-exception"
+  },
+  {
+    "name": "Asterisk linking protocols exception",
+    "licenseId": "Asterisk-linking-protocols-exception"
+  },
+  {
+    "name": "Autoconf exception 2.0",
+    "licenseId": "Autoconf-exception-2.0"
+  },
+  {
+    "name": "Autoconf exception 3.0",
+    "licenseId": "Autoconf-exception-3.0"
+  },
+  {
+    "name": "Autoconf generic exception",
+    "licenseId": "Autoconf-exception-generic"
+  },
+  {
+    "name": "Autoconf generic exception for GPL-3.0",
+    "licenseId": "Autoconf-exception-generic-3.0"
+  },
+  {
+    "name": "Autoconf macro exception",
+    "licenseId": "Autoconf-exception-macro"
+  },
+  {
     "name": "Buena Onda License Agreement v1.1",
     "licenseId": "BOLA-1.1"
   },
@@ -384,6 +416,14 @@
     "licenseId": "Beerware"
   },
   {
+    "name": "Bison exception 1.24",
+    "licenseId": "Bison-exception-1.24"
+  },
+  {
+    "name": "Bison exception 2.2",
+    "licenseId": "Bison-exception-2.2"
+  },
+  {
     "name": "BitTorrent Open Source License v1.0",
     "licenseId": "BitTorrent-1.0"
   },
@@ -412,6 +452,10 @@
     "licenseId": "Boehm-GC-without-fee"
   },
   {
+    "name": "Bootloader Distribution Exception",
+    "licenseId": "Bootloader-exception"
+  },
+  {
     "name": "Borceux license",
     "licenseId": "Borceux"
   },
@@ -424,8 +468,16 @@
     "licenseId": "Brian-Gladman-3-Clause"
   },
   {
+    "name": "Brian Gladman 3-Clause License (no conversion clause)",
+    "licenseId": "Brian-Gladman-3-Clause-no-conversion"
+  },
+  {
     "name": "Buddy License",
     "licenseId": "Buddy"
+  },
+  {
+    "name": "Bugroff License",
+    "licenseId": "Bugroff"
   },
   {
     "name": "Computational Use of Data Agreement v1.0",
@@ -514,6 +566,10 @@
   {
     "name": "Creative Commons Attribution Non Commercial 3.0 Germany",
     "licenseId": "CC-BY-NC-3.0-DE"
+  },
+  {
+    "name": "Creative Commons Attribution Non Commercial 3.0 IGO",
+    "licenseId": "CC-BY-NC-3.0-IGO"
   },
   {
     "name": "Creative Commons Attribution Non Commercial 4.0 International",
@@ -740,6 +796,14 @@
     "licenseId": "CFITSIO"
   },
   {
+    "name": "CGAL Linking Exception",
+    "licenseId": "CGAL-linking-exception"
+  },
+  {
+    "name": "CLISP exception 2.0",
+    "licenseId": "CLISP-exception-2.0"
+  },
+  {
     "name": "CMU Mach License",
     "licenseId": "CMU-Mach"
   },
@@ -794,6 +858,14 @@
   {
     "name": "Clarified Artistic License",
     "licenseId": "ClArtistic"
+  },
+  {
+    "name": "Classpath exception 2.0",
+    "licenseId": "Classpath-exception-2.0"
+  },
+  {
+    "name": "Classpath exception 2.0 - short",
+    "licenseId": "Classpath-exception-2.0-short"
   },
   {
     "name": "Clips License",
@@ -862,6 +934,14 @@
   {
     "name": "DSDP License",
     "licenseId": "DSDP"
+  },
+  {
+    "name": "DigiRule FOSS License Exception",
+    "licenseId": "DigiRule-FOSS-exception"
+  },
+  {
+    "name": "Digia Qt LGPL Exception version 1.1",
+    "licenseId": "Digia-Qt-LGPL-exception-1.1"
   },
   {
     "name": "DocBook DTD License",
@@ -964,6 +1044,10 @@
     "licenseId": "FDK-AAC"
   },
   {
+    "name": "FLTK exception",
+    "licenseId": "FLTK-exception"
+  },
+  {
     "name": "FSF All Permissive License",
     "licenseId": "FSFAP"
   },
@@ -1004,8 +1088,16 @@
     "licenseId": "Fair"
   },
   {
+    "name": "Fawkes Runtime Exception",
+    "licenseId": "Fawkes-Runtime-exception"
+  },
+  {
     "name": "Ferguson Twofish License",
     "licenseId": "Ferguson-Twofish"
+  },
+  {
+    "name": "Font exception 2.0",
+    "licenseId": "Font-exception-2.0"
   },
   {
     "name": "Frameworx Open License 1.0",
@@ -1022,6 +1114,18 @@
   {
     "name": "Furuseth License",
     "licenseId": "Furuseth"
+  },
+  {
+    "name": "GCC Runtime Library exception 2.0",
+    "licenseId": "GCC-exception-2.0"
+  },
+  {
+    "name": "GCC    Runtime Library exception 2.0 - note variant",
+    "licenseId": "GCC-exception-2.0-note"
+  },
+  {
+    "name": "GCC Runtime Library exception 3.1",
+    "licenseId": "GCC-exception-3.1"
   },
   {
     "name": "Gnome GCR Documentation License",
@@ -1124,6 +1228,18 @@
     "licenseId": "GLWTPL"
   },
   {
+    "name": "GNAT exception",
+    "licenseId": "GNAT-exception"
+  },
+  {
+    "name": "GNOME examples exception",
+    "licenseId": "GNOME-examples-exception"
+  },
+  {
+    "name": "GNU Compiler Exception",
+    "licenseId": "GNU-compiler-exception"
+  },
+  {
     "name": "GNU General Public License v1.0 only",
     "licenseId": "GPL-1.0"
   },
@@ -1184,6 +1300,22 @@
     "licenseId": "GPL-3.0+"
   },
   {
+    "name": "GPL-3.0 389 DS Base Exception",
+    "licenseId": "GPL-3.0-389-ds-base-exception"
+  },
+  {
+    "name": "GPL-3.0 Interface Exception",
+    "licenseId": "GPL-3.0-interface-exception"
+  },
+  {
+    "name": "GPL-3.0 Linking Exception",
+    "licenseId": "GPL-3.0-linking-exception"
+  },
+  {
+    "name": "GPL-3.0 Linking Exception (with Corresponding Source)",
+    "licenseId": "GPL-3.0-linking-source-exception"
+  },
+  {
     "name": "GNU General Public License v3.0 only",
     "licenseId": "GPL-3.0-only"
   },
@@ -1200,6 +1332,18 @@
     "licenseId": "GPL-3.0-with-autoconf-exception"
   },
   {
+    "name": "GPL Cooperation Commitment 1.0",
+    "licenseId": "GPL-CC-1.0"
+  },
+  {
+    "name": "GStreamer Exception (2005)",
+    "licenseId": "GStreamer-exception-2005"
+  },
+  {
+    "name": "GStreamer Exception (2008)",
+    "licenseId": "GStreamer-exception-2008"
+  },
+  {
     "name": "Game Programming Gems License",
     "licenseId": "Game-Programming-Gems"
   },
@@ -1214,6 +1358,14 @@
   {
     "name": "Glulxe License",
     "licenseId": "Glulxe"
+  },
+  {
+    "name": "Gmsh exception",
+    "licenseId": "Gmsh-exception"
+  },
+  {
+    "name": "Google Additional IP Rights Grant (Patents) - WebM",
+    "licenseId": "Google-Patent-WebM"
   },
   {
     "name": "Graphics Gems License",
@@ -1404,8 +1556,16 @@
     "licenseId": "Imlib2"
   },
   {
+    "name": "Independent Module Linking exception",
+    "licenseId": "Independent-modules-exception"
+  },
+  {
     "name": "Info-ZIP License",
     "licenseId": "Info-ZIP"
+  },
+  {
+    "name": "Informatica License",
+    "licenseId": "Informatica"
   },
   {
     "name": "Inner Net License v2.0",
@@ -1454,6 +1614,10 @@
   {
     "name": "Kazlib License",
     "licenseId": "Kazlib"
+  },
+  {
+    "name": "KiCad Libraries Exception",
+    "licenseId": "KiCad-libraries-exception"
   },
   {
     "name": "Knuth CTAN License",
@@ -1508,6 +1672,10 @@
     "licenseId": "LGPL-3.0+"
   },
   {
+    "name": "LGPL-3.0 Linking Exception",
+    "licenseId": "LGPL-3.0-linking-exception"
+  },
+  {
     "name": "GNU Lesser General Public License v3.0 only",
     "licenseId": "LGPL-3.0-only"
   },
@@ -1518,6 +1686,14 @@
   {
     "name": "Lesser General Public License For Linguistic Resources",
     "licenseId": "LGPLLR"
+  },
+  {
+    "name": "LLGPL Preamble",
+    "licenseId": "LLGPL"
+  },
+  {
+    "name": "LLVM Exception",
+    "licenseId": "LLVM-exception"
   },
   {
     "name": "Common Lisp LOOP License",
@@ -1564,6 +1740,10 @@
     "licenseId": "LZMA-SDK-9.22"
   },
   {
+    "name": "LZMA exception",
+    "licenseId": "LZMA-exception"
+  },
+  {
     "name": "Latex2e License",
     "licenseId": "Latex2e"
   },
@@ -1592,6 +1772,10 @@
     "licenseId": "Libpng"
   },
   {
+    "name": "Libtool Exception",
+    "licenseId": "Libtool-exception"
+  },
+  {
     "name": "Linux Kernel Variant of OpenIB.org license",
     "licenseId": "Linux-OpenIB"
   },
@@ -1610,6 +1794,10 @@
   {
     "name": "Linux man-pages Copyleft Variant",
     "licenseId": "Linux-man-pages-copyleft-var"
+  },
+  {
+    "name": "Linux Syscall Note",
+    "licenseId": "Linux-syscall-note"
   },
   {
     "name": "Lucida Bitmap Fonts License",
@@ -1722,6 +1910,10 @@
   {
     "name": "Matrix Template Library License",
     "licenseId": "MTLL"
+  },
+  {
+    "name": "MVT License 1.1",
+    "licenseId": "MVT-1.1"
   },
   {
     "name": "Mackerras 3-Clause License",
@@ -1888,6 +2080,10 @@
     "licenseId": "Nokia"
   },
   {
+    "name": "Nokia Qt LGPL exception 1.1",
+    "licenseId": "Nokia-Qt-exception-1.1"
+  },
+  {
     "name": "Noweb License",
     "licenseId": "Noweb"
   },
@@ -1908,8 +2104,16 @@
     "licenseId": "OCCT-PL"
   },
   {
+    "name": "Open CASCADE Exception 1.0",
+    "licenseId": "OCCT-exception-1.0"
+  },
+  {
     "name": "OCLC Research Public License 2.0",
     "licenseId": "OCLC-2.0"
+  },
+  {
+    "name": "OCaml LGPL Linking Exception",
+    "licenseId": "OCaml-LGPL-linking-exception"
   },
   {
     "name": "Open Data Commons Attribution License v1.0",
@@ -2092,6 +2296,10 @@
     "licenseId": "OSSP"
   },
   {
+    "name": "OpenJDK Assembly exception 1.0",
+    "licenseId": "OpenJDK-assembly-exception-1.0"
+  },
+  {
     "name": "OpenMDW License Agreement v1.0",
     "licenseId": "OpenMDW-1.0"
   },
@@ -2116,6 +2324,10 @@
     "licenseId": "PADL"
   },
   {
+    "name": "PCRE2 exception",
+    "licenseId": "PCRE2-exception"
+  },
+  {
     "name": "Open Data Commons Public Domain Dedication & License 1.0",
     "licenseId": "PDDL-1.0"
   },
@@ -2130,6 +2342,10 @@
   {
     "name": "Peer Production License",
     "licenseId": "PPL"
+  },
+  {
+    "name": "PS/PDF font exception (2017-08-17)",
+    "licenseId": "PS-or-PDF-font-exception-20170817"
   },
   {
     "name": "Python Software Foundation License 2.0",
@@ -2184,8 +2400,24 @@
     "licenseId": "QPL-1.0-INRIA-2004"
   },
   {
+    "name": "INRIA QPL 1.0 2004 variant exception",
+    "licenseId": "QPL-1.0-INRIA-2004-exception"
+  },
+  {
     "name": "Qhull License",
     "licenseId": "Qhull"
+  },
+  {
+    "name": "Qt GPL exception 1.0",
+    "licenseId": "Qt-GPL-exception-1.0"
+  },
+  {
+    "name": "Qt LGPL exception 1.1",
+    "licenseId": "Qt-LGPL-exception-1.1"
+  },
+  {
+    "name": "Qwt exception 1.0",
+    "licenseId": "Qwt-exception-1.0"
   },
   {
     "name": "Red Hat eCos Public License v1.1",
@@ -2202,6 +2434,10 @@
   {
     "name": "RealNetworks Public Source License v1.0",
     "licenseId": "RPSL-1.0"
+  },
+  {
+    "name": "RRDtool FLOSS exception 2.0",
+    "licenseId": "RRDtool-FLOSS-exception-2.0"
   },
   {
     "name": "RSA Message-Digest License",
@@ -2222,6 +2458,10 @@
   {
     "name": "Ruby pty extension license",
     "licenseId": "Ruby-pty"
+  },
+  {
+    "name": "SANE Exception",
+    "licenseId": "SANE-exception"
   },
   {
     "name": "Sax Public Domain Notice",
@@ -2266,6 +2506,14 @@
   {
     "name": "Solderpad Hardware License, Version 0.51",
     "licenseId": "SHL-0.51"
+  },
+  {
+    "name": "Solderpad Hardware License v2.0",
+    "licenseId": "SHL-2.0"
+  },
+  {
+    "name": "Solderpad Hardware License v2.1",
+    "licenseId": "SHL-2.1"
   },
   {
     "name": "Sun Industry Standards Source License v1.1",
@@ -2324,6 +2572,10 @@
     "licenseId": "SUL-1.0"
   },
   {
+    "name": "SWI exception",
+    "licenseId": "SWI-exception"
+  },
+  {
     "name": "Scheme Widget Library (SWL) Software License Agreement",
     "licenseId": "SWL"
   },
@@ -2352,12 +2604,20 @@
     "licenseId": "SimPL-2.0"
   },
   {
+    "name": "Simple Library Usage Exception",
+    "licenseId": "Simple-Library-Usage-exception"
+  },
+  {
     "name": "Sleepycat License",
     "licenseId": "Sleepycat"
   },
   {
     "name": "Soundex License",
     "licenseId": "Soundex"
+  },
+  {
+    "name": "Spelling Provider LGPL exception",
+    "licenseId": "Spelling-Provider-LGPL-exception"
   },
   {
     "name": "Spencer License 86",
@@ -2390,6 +2650,10 @@
   {
     "name": "SunPro License",
     "licenseId": "SunPro"
+  },
+  {
+    "name": "Swift Exception",
+    "licenseId": "Swift-exception"
   },
   {
     "name": "Symlinks License",
@@ -2456,12 +2720,20 @@
     "licenseId": "TermReadKey"
   },
   {
+    "name": "Texinfo exception",
+    "licenseId": "Texinfo-exception"
+  },
+  {
     "name": "ThirdEye License",
     "licenseId": "ThirdEye"
   },
   {
     "name": "TrustedQSL License",
     "licenseId": "TrustedQSL"
+  },
+  {
+    "name": "Unmodified Binary Distribution exception",
+    "licenseId": "UBDL-exception"
   },
   {
     "name": "UCAR License",
@@ -2506,6 +2778,10 @@
   {
     "name": "Unicode Terms of Use",
     "licenseId": "Unicode-TOU"
+  },
+  {
+    "name": "Universal FOSS Exception, Version 1.0",
+    "licenseId": "Universal-FOSS-exception-1.0"
   },
   {
     "name": "UnixCrypt License",
@@ -2574,6 +2850,10 @@
   {
     "name": "Wsuipa License",
     "licenseId": "Wsuipa"
+  },
+  {
+    "name": "WxWindows Library Exception 3.1",
+    "licenseId": "WxWindows-exception-3.1"
   },
   {
     "name": "X11 License",
@@ -2668,6 +2948,10 @@
     "licenseId": "any-OSI-perl-modules"
   },
   {
+    "name": "atc Game License",
+    "licenseId": "atc-game"
+  },
+  {
     "name": "bcrypt Solar Designer License",
     "licenseId": "bcrypt-Solar-Designer"
   },
@@ -2700,6 +2984,10 @@
     "licenseId": "copyleft-next-0.3.1"
   },
   {
+    "name": "cryptsetup OpenSSL exception",
+    "licenseId": "cryptsetup-OpenSSL-exception"
+  },
+  {
     "name": "curl License",
     "licenseId": "curl"
   },
@@ -2724,12 +3012,28 @@
     "licenseId": "eCos-2.0"
   },
   {
+    "name": "eCos exception 2.0",
+    "licenseId": "eCos-exception-2.0"
+  },
+  {
     "name": "eGenix.com Public License 1.1.0",
     "licenseId": "eGenix"
   },
   {
+    "name": "Erlang/OTP Linking Exception",
+    "licenseId": "erlang-otp-linking-exception"
+  },
+  {
     "name": "Etalab Open License 2.0",
     "licenseId": "etalab-2.0"
+  },
+  {
+    "name": "fmt exception",
+    "licenseId": "fmt-exception"
+  },
+  {
+    "name": "FreeRTOS Exception 2.0",
+    "licenseId": "freertos-exception-2.0"
   },
   {
     "name": "fwlw License",
@@ -2744,12 +3048,20 @@
     "licenseId": "generic-xts"
   },
   {
+    "name": "GNU JavaMail exception",
+    "licenseId": "gnu-javamail-exception"
+  },
+  {
     "name": "gnuplot License",
     "licenseId": "gnuplot"
   },
   {
     "name": "gtkbook License",
     "licenseId": "gtkbook"
+  },
+  {
+    "name": "harbour exception",
+    "licenseId": "harbour-exception"
   },
   {
     "name": "hdparm License",
@@ -2760,6 +3072,10 @@
     "licenseId": "hyphen-bulgarian"
   },
   {
+    "name": "i2p GPL+Java Exception",
+    "licenseId": "i2p-gpl-java-exception"
+  },
+  {
     "name": "iMatix Standard Function Library Agreement",
     "licenseId": "iMatix"
   },
@@ -2768,12 +3084,20 @@
     "licenseId": "jove"
   },
   {
+    "name": "kvirc OpenSSL Exception",
+    "licenseId": "kvirc-openssl-exception"
+  },
+  {
     "name": "PNG Reference Library License v1 (for libpng 0.5 through 1.6.35)",
     "licenseId": "libpng-1.6.35"
   },
   {
     "name": "PNG Reference Library version 2",
     "licenseId": "libpng-2.0"
+  },
+  {
+    "name": "libpri OpenH323 exception",
+    "licenseId": "libpri-OpenH323-exception"
   },
   {
     "name": "libselinux public domain notice",
@@ -2808,6 +3132,10 @@
     "licenseId": "metamail"
   },
   {
+    "name": "Macros and Inline Functions Exception",
+    "licenseId": "mif-exception"
+  },
+  {
     "name": "mpi Permissive License",
     "licenseId": "mpi-permissive"
   },
@@ -2820,8 +3148,16 @@
     "licenseId": "mplus"
   },
   {
+    "name": "mxml Exception",
+    "licenseId": "mxml-exception"
+  },
+  {
     "name": "ngrep License",
     "licenseId": "ngrep"
+  },
+  {
+    "name": "OpenVPN OpenSSL Exception",
+    "licenseId": "openvpn-openssl-exception"
   },
   {
     "name": "pkgconf License",
@@ -2830,6 +3166,10 @@
   {
     "name": "pnmstitch License",
     "licenseId": "pnmstitch"
+  },
+  {
+    "name": "Polyparse Exception",
+    "licenseId": "polyparse-exception"
   },
   {
     "name": "psfrag License",
@@ -2848,6 +3188,14 @@
     "licenseId": "radvd"
   },
   {
+    "name": "Romic Exception",
+    "licenseId": "romic-exception"
+  },
+  {
+    "name": "rsync Linking Exception",
+    "licenseId": "rsync-linking-exception"
+  },
+  {
     "name": "snprintf License",
     "licenseId": "snprintf"
   },
@@ -2856,8 +3204,16 @@
     "licenseId": "softSurfer"
   },
   {
+    "name": "sqlitestudio OpenSSL exception",
+    "licenseId": "sqlitestudio-OpenSSL-exception"
+  },
+  {
     "name": "ssh-keyscan License",
     "licenseId": "ssh-keyscan"
+  },
+  {
+    "name": "stunnel Exception",
+    "licenseId": "stunnel-exception"
   },
   {
     "name": "swrule License",
@@ -2868,8 +3224,16 @@
     "licenseId": "threeparttable"
   },
   {
+    "name": "U-Boot exception 2.0",
+    "licenseId": "u-boot-exception-2.0"
+  },
+  {
     "name": "ulem License",
     "licenseId": "ulem"
+  },
+  {
+    "name": "vsftpd OpenSSL exception",
+    "licenseId": "vsftpd-openssl-exception"
   },
   {
     "name": "w3m License",
@@ -2882,6 +3246,10 @@
   {
     "name": "wxWindows Library License",
     "licenseId": "wxWindows"
+  },
+  {
+    "name": "x11vnc OpenSSL Exception",
+    "licenseId": "x11vnc-openssl-exception"
   },
   {
     "name": "xinetd License",
@@ -2914,5 +3282,17 @@
   {
     "name": "Others",
     "licenseId": "Others"
+  },
+  {
+    "name": "NVIDIA Open NVDLA License and Agreement v1.0",
+    "licenseId": "LicenseRef-NVIDIA-Open-NVDLA-1.0"
+  },
+  {
+    "name": "INRIA Non-Commercial License Agreement",
+    "licenseId": "inria-compcert"
+  },
+  {
+    "name": "NXP SOFTWARE LICENSE AGREEMENT",
+    "licenseId": "LA_OPT_NXP_Software_License"
   }
 ]
