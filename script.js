@@ -281,6 +281,7 @@ fileInput.addEventListener('change', async event => {
     masterData.sort((a, b) => String(a.Name ?? '').localeCompare(String(b.Name ?? '')));
     filteredData = [...masterData];
     deriveColumns();
+    applyFilters();
     buildTable();
     setInitialFilterSelections(parseFiltersFromQuery()); // Apply URL filters now
   statusEl.textContent = 'Local files loaded.';
@@ -519,6 +520,7 @@ async function loadDataFromServer() {
     masterData.sort((a, b) => String(a.Name ?? '').localeCompare(String(b.Name ?? '')));
     filteredData = [...masterData];
     deriveColumns();
+    applyFilters();
     buildTable();
     setInitialFilterSelections(parseFiltersFromQuery()); // Apply URL filters now
     dataLoaded = true;
@@ -825,6 +827,25 @@ function buildTable(skipPortalId = null) {
   renderRows(filteredData);
 }
 
+// Returns a numeric score representing the completeness of a row, where lower is better
+function getCompletenessScore(row) {
+  const allFields = [...new Set(masterData.flatMap(Object.keys))];
+  let emptyCount = 0;
+
+  for (const field of allFields) {
+    const value = row[field];
+    if (value == null || value === '') {
+      emptyCount++;
+    } else if (Array.isArray(value) && value.length === 0) {
+      emptyCount++;
+    } else if (String(value).trim().toUpperCase() === 'TBD') {
+      emptyCount++;
+    }
+  }
+
+  return emptyCount;
+}
+
 // Update applyFilters for OR logic
 function applyFilters(initialState = null) {
   if (initialState) {
@@ -866,6 +887,13 @@ function applyFilters(initialState = null) {
       })
     )
   );
+
+  // Sort by completeness
+  filteredData.sort((a, b) => {
+    const scoreA = getCompletenessScore(a);
+    const scoreB = getCompletenessScore(b);
+    return scoreA - scoreB;
+  });
 
   // Announce filter results to assistive tech
   try {
