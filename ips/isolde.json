@@ -269,9 +269,11 @@
     "Project": "ISOLDE",
     "Name": "Memory bank interface",
     "URL": "https://bitbucket.org/fnpub/isolde/",
-    "License": "Others",
-    "Status": "",
-    "Description": "TBD",
+    "License": [
+      "SHL-0.51"
+    ],
+    "Status": "Completed, verified",
+    "Description": "Interface protocol for acessing internal memory banks of the AI/ML accelerator",
     "WI": [
       "ID 2.3.02"
     ],
@@ -829,8 +831,8 @@
     "Name": "AI/ML Accelerator (AMA)",
     "URL": "",
     "License": "Proprietary",
-    "Status": "",
-    "Description": "TBD",
+    "Status": "Completed, Verified",
+    "Description": "Hardware accelerator for AI/ML workloads",
     "WI": [
       "ID 3.4.03"
     ],
@@ -1138,8 +1140,8 @@
     "Name": "AI/ML Accelerator driver",
     "URL": "https://bitbucket.org/fnpub/isolde/",
     "License": "Apache-2.0",
-    "Status": "",
-    "Description": "TBD",
+    "Status": "Completed",
+    "Description": "Portable driver code for host processor to control the AI/ML accelerator",
     "WI": [
       "ID 4.1.02"
     ],
@@ -1383,8 +1385,8 @@
     "Name": "AI/ML Accelerator Compiler Toolchain",
     "URL": "",
     "License": "Proprietary",
-    "Status": "",
-    "Description": "TBD",
+    "Status": "Available",
+    "Description": "ONNX compiler; produces binary code for AI/ML accelerator",
     "WI": [
       "ID 4.2.05"
     ],
@@ -1761,8 +1763,8 @@
     "Name": "Software simulator for the AI/ML Accelerator",
     "URL": "",
     "License": "Proprietary",
-    "Status": "",
-    "Description": "TBD",
+    "Status": "Completed, tested",
+    "Description": "Functionally exact simulator for AI/ML accelerator",
     "WI": [
       "ID 4.3.06"
     ],
