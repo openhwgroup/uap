@@ -15,6 +15,7 @@
       },
       "URL": { "type": "string", "format": "uri" },
       "IP_CARD_URL":{"type":"string","format":"uri"},
+      "IP_CARD_PDF_URL":{"type":"string","format":"uri"},
       "Project": { "type": "string" },
       "WI": {
         "oneOf": [
