@@ -1915,5 +1915,23 @@
     ],
     "IP_CARD_URL": "",
     "IP_CARD_PDF_URL": ""
+  },
+  {
+    "Project": "ISOLDE",
+    "Name": "Model Prediction Control Application",
+    "URL": "https://github.com/hash2100/isolde-workbench/tree/main/benchmarks/mpc-benchmark",
+    "License": "Proprietary",
+    "Status": "Completed, tested",
+    "Description": "Application for testing the Motor control accelerator for MPC. Uses HPIPM solver with BLASFEO library for linear algebra.",
+    "WI": [
+      "ID 4.3.14"
+    ],
+    "Partners": "NXP-CZ",
+    "Comment": "Proprietary. ISOLDE Category 'Application Software'",
+    "Category": [
+      "Software", "Application Software"
+    ],
+    "IP_CARD_URL": "ip_cards/mpc_ip_card.jsonc",
+    "IP_CARD_PDF_URL": "ip_cards/mpc_ip_card.pdf"
   }
 ]

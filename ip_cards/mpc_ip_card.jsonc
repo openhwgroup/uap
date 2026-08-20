@@ -1,0 +1,49 @@
+{
+    "schemaVersion": "0.9",
+    "basicInfo": {
+        "ipName": "Model Predictive Control",
+        "version": "1.0",
+        "sourceLanguages": ["C"],
+        "project": "ISOLDE",
+        "workItem": "3.6",
+        "status": "Prototype implemented",
+        "license": "Proprietary",
+        "ipType": {
+            "category": [
+                "Software",
+                "Application Software"
+            ],
+            "domain": [
+                "Other"
+            ],
+            "comment": "Embedded automotive application"
+        },
+        "repositoryURL": "https://github.com/hash2100/isolde-workbench",
+        "provider": [
+            {
+                "organizationName": "NXP Semiconductors",
+                "organizationURL": "www.nxp.com",
+                "organizationAlias": [
+                    "NXP-CZ"
+                ]
+            }
+        ]
+    },
+    "systemLevelInfo": {
+        "architecture": "RISC-V, ARM, X86",
+        "processor": "A730",
+        "isaExtension": "rv64gcbv_zvl128b",
+        "board": "Xilinx VCU118",
+        "SOC": "NA",
+        "SWDependencies": "None",
+        "requiresSpecializedTool": "No"
+    },
+    "interfaces": {
+        "API": [
+            "C Library API"
+        ]
+    },
+    "deployment": {
+        "bundle": "Source code"
+    }
+}
