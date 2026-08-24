@@ -1,0 +1,47 @@
+{
+    "schemaVersion": "0.9",
+    "basicInfo": {
+        "ipName": "Safety Compliant Math and Motor Control Library",
+        "version": "NA",
+        "project": "ISOLDE",
+        "workItem": "4.2.18",
+
+        "status": "Prototype implemented",
+        "license": "Proprietary",
+        "ipType": {
+            "category": [
+                "Software Library/Framework"
+            ],
+            "domain": [
+                "Safety"
+            ],
+            "comment": "Prototype implementation of the Automotive Safety Checker Library (ASCLib) — a set of safety checkers targeted at motor control applications built on the Math and Motor Control Library."
+        },
+        "repositoryURL": "https://bitbucket.sw.nxp.com/projects/CZEUSUB/repos/isolde_fusa/browse",
+        "provider": [
+            {
+                "organizationName": "NXP Semiconductors",
+                "organizationURL": "www.nxp.com",
+                "organizationAlias": [
+                    "NXP-CZ"
+                ]
+            }
+        ]
+    },
+    "systemLevelInfo": {
+        "architecture": "RISC-V, ARM",
+        "isaExtension": "NA",
+        "board": "NA",
+        "SOC": "NA",
+        "SWDependencies": "None",
+        "requiresSpecializedTool": "No"
+    },
+    "interfaces": {
+        "API": [
+            "Standard C API calls"
+        ]
+    },
+    "deployment": {
+        "bundle": "source"
+    }
+}

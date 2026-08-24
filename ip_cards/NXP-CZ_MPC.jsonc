@@ -5,7 +5,7 @@
         "version": "1.0",
         "sourceLanguages": ["C"],
         "project": "ISOLDE",
-        "workItem": "3.6",
+        "workItem": "3.6.06",
         "status": "Prototype implemented",
         "license": "Proprietary",
         "ipType": {
