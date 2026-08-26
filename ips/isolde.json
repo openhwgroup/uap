@@ -1527,7 +1527,7 @@
       "Software",
       "Compiler"
     ],
-    "IP_CARD_URL": "",
+    "IP_CARD_URL": "ip_cards/NXP_AT_FCFI_LLVM.json",
     "IP_CARD_PDF_URL": ""
   },
   {
@@ -1546,7 +1546,7 @@
       "Software",
       "Compiler"
     ],
-    "IP_CARD_URL": "",
+    "IP_CARD_URL": "ip_cards/NXP_AT_BCFI_LLVM.json",
     "IP_CARD_PDF_URL": ""
   },
   {
@@ -1565,7 +1565,7 @@
       "Software",
       "Compiler"
     ],
-    "IP_CARD_URL": "",
+    "IP_CARD_URL": "ip_cards/NXP_AT_CTM_LLVM.json",
     "IP_CARD_PDF_URL": ""
   },
   {
@@ -1585,7 +1585,7 @@
       "On-Chip Debug System",
       "Visualisation and Debugging"
     ],
-    "IP_CARD_URL": "",
+    "IP_CARD_URL": "ip_cards/NXP_AT_debugger.json",
     "IP_CARD_PDF_URL": ""
   },
   {
