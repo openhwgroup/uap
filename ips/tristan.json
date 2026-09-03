@@ -434,7 +434,7 @@
   {
     "Name": "CompCert",
     "URL": "https://github.com/AbsInt/CompCert",
-    "License": ["LGPL-2.1","inria-compcert"],
+    "License": ["inria-compcert","Proprietary"],
     "Status": "Released",
     "Description": "CompCert is a formally-verified optimizing C compiler. As part of TRISTAN, it is extended to support the HSI (hardware-supported instrumentation) interface of the TRISTAN trace IP.",
     "Project": "TRISTAN",
