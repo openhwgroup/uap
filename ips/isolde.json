@@ -283,8 +283,8 @@
       "Peripheral",
       "Interface"
     ],
-    "IP_CARD_URL": "",
-    "IP_CARD_PDF_URL": ""
+    "IP_CARD_URL": "https://bitbucket.org/fnpub/isolde/src/main/isolde_ip_cards/json/FotoNation_Memory_Bank_Interface_IP_Card.json",
+    "IP_CARD_PDF_URL": "https://bitbucket.org/fnpub/isolde/src/main/isolde_ip_cards/pdf/FotoNation_Memory_Bank_Interface_IP_Card.pdf"
   },
   {
     "Project": "ISOLDE",
@@ -843,8 +843,8 @@
       "Extension",
       "AI"
     ],
-    "IP_CARD_URL": "",
-    "IP_CARD_PDF_URL": ""
+    "IP_CARD_URL": "https://bitbucket.org/fnpub/isolde/src/main/isolde_ip_cards/json/FotoNation_AI_ML_Accelerator_IP_Card.json",
+    "IP_CARD_PDF_URL": "https://bitbucket.org/fnpub/isolde/src/main/isolde_ip_cards/pdf/FotoNation_AI_ML_Accelerator_IP_Card.pdf"
   },
   {
     "Project": "ISOLDE",
@@ -1169,8 +1169,8 @@
       "Operating System",
       "Software"
     ],
-    "IP_CARD_URL": "",
-    "IP_CARD_PDF_URL": ""
+    "IP_CARD_URL": "https://bitbucket.org/fnpub/isolde/src/main/isolde_ip_cards/json/FotoNation_AI_ML_Accelerator_Driver_IP_Card.json",
+    "IP_CARD_PDF_URL": "https://bitbucket.org/fnpub/isolde/src/main/isolde_ip_cards/pdf/FotoNation_AI_ML_Accelerator_Driver_IP_Card.pdf"
   },
   {
     "Project": "ISOLDE",
@@ -1417,8 +1417,8 @@
     "Category": [
       "Software"
     ],
-    "IP_CARD_URL": "",
-    "IP_CARD_PDF_URL": ""
+    "IP_CARD_URL": "https://bitbucket.org/fnpub/isolde/src/main/isolde_ip_cards/json/FotoNation_AI_ML_Accelerator_Compiler_Toolchain_IP_Card.json",
+    "IP_CARD_PDF_URL": "https://bitbucket.org/fnpub/isolde/src/main/isolde_ip_cards/pdf/FotoNation_AI_ML_Accelerator_Compiler_Toolchain_IP_Card.pdf"
   },
   {
     "Project": "ISOLDE",
@@ -1799,8 +1799,8 @@
       "Software",
       "Tool"
     ],
-    "IP_CARD_URL": "",
-    "IP_CARD_PDF_URL": ""
+    "IP_CARD_URL": "https://bitbucket.org/fnpub/isolde/src/main/isolde_ip_cards/json/FotoNation_AI_ML_Accelerator_Simulator_IP_Card.json",
+    "IP_CARD_PDF_URL": "https://bitbucket.org/fnpub/isolde/src/main/isolde_ip_cards/pdf/FotoNation_AI_ML_Accelerator_Simulator_IP_Card.pdf"
   },
   {
     "Project": "ISOLDE",
