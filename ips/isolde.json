@@ -1137,11 +1137,47 @@
   },
   {
     "Project": "ISOLDE",
-    "Name": "Neural Network Drivers",
-    "URL": "",
+    "Name": "Neural Network Kernels for Sparse computation",
+    "URL": "https://github.com/eml-eda/pulp-nn-sparse",
     "License": "Apache-2.0",
     "Status": "",
-    "Description": "TBD",
+    "Description": "A set of optimized software kernels for N: M pruned layers, targeting ultra-low-power, multicore RISC-V MCUs",
+    "WI": [
+      "ID 4.1.01"
+    ],
+    "Partners": "POLITO",
+    "Comment": "Apache V2.0. ISOLDE Category 'Operating systems and applications SW'",
+    "Category": [
+      "Software"
+    ],
+    "IP_CARD_URL": "",
+    "IP_CARD_PDF_URL": ""
+  },
+  {
+    "Project": "ISOLDE",
+    "Name": "Neural Network Kernels for Transformer optimization",
+    "URL": "https://github.com/pulp-platform/pulp-transformer",
+    "License": "Apache-2.0",
+    "Status": "",
+    "Description": "A set of execution kernels tuned for efficient execution on multi-core MCU-class RISC-V ",
+    "WI": [
+      "ID 4.1.01"
+    ],
+    "Partners": "POLITO",
+    "Comment": "Apache V2.0. ISOLDE Category 'Operating systems and applications SW'",
+    "Category": [
+      "Software"
+    ],
+    "IP_CARD_URL": "",
+    "IP_CARD_PDF_URL": ""
+  },
+  {
+    "Project": "ISOLDE",
+    "Name": "Neural Network Kernels for accelerating Mobilenets",
+    "URL": "https://github.com/eml-eda/depthwise-separable-fusion",
+    "License": "Apache-2.0",
+    "Status": "",
+    "Description": "An extensive library of alternatives to fuse the depthwise and pointwise kernels that constitute the separable convolutional block. ",
     "WI": [
       "ID 4.1.01"
     ],
@@ -1317,25 +1353,6 @@
     ],
     "Partners": "SYSGO",
     "Comment": "Public domain (CC0) for the Vivado/Lauterbach debugger configuration code contained therein.. ISOLDE Category 'Operating systems and applications SW'",
-    "Category": [
-      "Operating System",
-      "Software"
-    ],
-    "IP_CARD_URL": "",
-    "IP_CARD_PDF_URL": ""
-  },
-  {
-    "Project": "ISOLDE",
-    "Name": "Toolchain for Hardware-aware Neural Network Optimization",
-    "URL": "",
-    "License": "Apache-2.0",
-    "Status": "",
-    "Description": "TBD",
-    "WI": [
-      "ID 4.2.01"
-    ],
-    "Partners": "POLITO",
-    "Comment": "Apache V2.0. ISOLDE Category 'Operating systems and applications SW'",
     "Category": [
       "Operating System",
       "Software"
@@ -1690,11 +1707,11 @@
   },
   {
     "Project": "ISOLDE",
-    "Name": "Integrate system level simulators with extra-functional properties",
-    "URL": "",
+    "Name": "CHESSY: Coupled Hybrid Emulation with SystemC-FPGA Synchronization",
+    "URL": "https://github.com/eml-eda/chessy/",
     "License": "Apache-2.0",
     "Status": "",
-    "Description": "TBD",
+    "Description": "An open-source framework that connects SystemC-based VPs with FPGA emulation, enabling full-system co-emulation of digital and non-digital components. The FPGA accelerates the execution of main digital subsystems, while a wrapper coordinates timing and communication with the VP through JTAG, maintaining synchronization with simulated peripherals. ",
     "WI": [
       "ID 4.3.01"
     ],
