@@ -1155,7 +1155,7 @@
   },
   {
     "Project": "ISOLDE",
-    "Name": "Neural Network Kerles for Transformer optimization",
+    "Name": "Neural Network Kernels for Transformer optimization",
     "URL": "https://github.com/pulp-platform/pulp-transformer",
     "License": "Apache-2.0",
     "Status": "",
