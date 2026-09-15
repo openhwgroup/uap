@@ -330,10 +330,10 @@
   {
     "Project": "ISOLDE",
     "Name": "Interface between CVA6 and Vector accelerator",
-    "URL": "https://github.com/pulp-platform/ara/tree/f06204b",
+    "URL": "https://github.com/pulp-platform/ara/tree/mp/xif",
     "License": "SHL-2.1",
-    "Status": "Prototype. To be updated with the final release of CV-X-IF in CVA6",
-    "Description": "Prototype of CV-X-IF between CVA6 and RVV 1.0 vector processor, used for evaluation",
+    "Status": "CV-X-IF implementation in the VPU",
+    "Description": "CV-X-IF communication interface between CVA6 and the RVV 1.0 vector processor. More details and IP card in the VPU entry.",
     "WI": [
       "ID 2.3.05"
     ],
@@ -862,8 +862,8 @@
       "Accelerator",
       "Extension"
     ],
-    "IP_CARD_URL": "",
-    "IP_CARD_PDF_URL": ""
+    "IP_CARD_URL": "ip_cards/ETHZ_vpu.json",
+    "IP_CARD_PDF_URL": "ip_cards/ETHZ_vpu.pdf"
   },
   {
     "Project": "ISOLDE",
