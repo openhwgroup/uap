@@ -810,10 +810,10 @@
   {
     "Project": "ISOLDE",
     "Name": "Parallel Computing Accelerator (PCA)",
-    "URL": "",
+    "URL": "https://github.com/edge-group-polito/PCA",
     "License": "SHL-2.1",
     "Status": "",
-    "Description": "TBD",
+    "Description": "The Parallel Computing Accelerator (PCA) is a compute engine with AXI interface to accelerate convolutions.",
     "WI": [
       "ID 3.4.02"
     ],
